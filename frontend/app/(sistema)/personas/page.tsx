@@ -23,7 +23,7 @@ export default function PersonasPage() {
   useEffect(() => {
     const fetchPersonas = async () => {
       try {
-        const res = await fetch("http://localhost:3001/api/personas");
+        const res = await fetch("https://sgp-rrhh-backend.onrender.com/api/personas");
         const data = await res.json();
         setPersonas(data);
       } catch (error) {
