@@ -26,30 +26,28 @@ export default function SistemaLayout({
   const pathname = usePathname();
   const router = useRouter();
   const [collapsed, setCollapsed] = useState(true);
-  const [user, setUser] = useState<User | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [user] = useState<User | null>(() => {
+    if (typeof window === "undefined") return null;
+
+    const userStr = localStorage.getItem("user");
+    if (!userStr) return null;
+
+    try {
+      return JSON.parse(userStr) as User;
+    } catch {
+      return null;
+    }
+  });
 
   useEffect(() => {
     // Validar que exista token
     const token = localStorage.getItem("token");
-    const userStr = localStorage.getItem("user");
 
-    if (!token) {
+    if (!token || !user) {
       router.push("/login");
       return;
     }
-
-    if (userStr) {
-      try {
-        setUser(JSON.parse(userStr));
-      } catch {
-        router.push("/login");
-        return;
-      }
-    }
-
-    setLoading(false);
-  }, [router]);
+  }, [router, user]);
 
   const handleLogout = () => {
     localStorage.removeItem("token");
@@ -57,7 +55,7 @@ export default function SistemaLayout({
     router.push("/login");
   };
 
-  if (loading) {
+  if (typeof window === "undefined") {
     return (
       <div className="min-h-screen bg-slate-100 flex items-center justify-center">
         <div className="text-slate-600">Cargando...</div>

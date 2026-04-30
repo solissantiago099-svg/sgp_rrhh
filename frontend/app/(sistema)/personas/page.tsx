@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { fetchJson } from "@/app/utils/api";
 
 type Persona = {
   id: number;
@@ -18,16 +19,22 @@ type Persona = {
 export default function PersonasPage() {
   const [personas, setPersonas] = useState<Persona[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [search, setSearch] = useState("");
 
   useEffect(() => {
     const fetchPersonas = async () => {
       try {
-        const res = await fetch("https://sgp-rrhh-backend.onrender.com/api/personas");
-        const data = await res.json();
+        const data = await fetchJson<Persona[]>("/api/personas");
         setPersonas(data);
+        setError(null);
       } catch (error) {
         console.error("Error al cargar personas:", error);
+        setError(
+          error instanceof Error
+            ? error.message
+            : "No se pudo cargar el personal."
+        );
       } finally {
         setLoading(false);
       }
@@ -63,6 +70,8 @@ export default function PersonasPage() {
       <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
         {loading ? (
           <div className="p-6 text-slate-500">Cargando personas...</div>
+        ) : error ? (
+          <div className="p-6 text-red-600">{error}</div>
         ) : (
           <table className="w-full text-sm">
             <thead className="bg-slate-50 text-slate-600">
