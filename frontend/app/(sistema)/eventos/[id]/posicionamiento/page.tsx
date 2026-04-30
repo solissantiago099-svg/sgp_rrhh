@@ -283,7 +283,10 @@ export default function PosicionamientoEventoPage() {
   }, [evento, eventoId, eventos, todosPosicionamientos]);
 
   const filteredPersonas = useMemo(() => {
-    let result = personalTab === "eventuales" ? [...personas] : [...personalFijo];
+    let result =
+      personalTab === "eventuales"
+        ? personas.filter((persona) => persona.activo)
+        : personalFijo.filter((persona) => persona.activo !== false);
 
     if (personalTab === "eventuales" && tareaFilter !== "todas") {
       result = result.filter(

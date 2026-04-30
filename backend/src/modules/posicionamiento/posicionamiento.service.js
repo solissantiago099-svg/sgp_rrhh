@@ -190,6 +190,12 @@ const createPosicionamiento = async (data) => {
   const persona = await personasService.getPersonaById(persona_id);
   const dotacion = await dotacionService.getDotacionById(dotacion_id);
 
+  if (!persona.activo) {
+    const error = new Error("La persona no está activa");
+    error.status = 400;
+    throw error;
+  }
+
   if (dotacion.evento_id !== evento_id) {
     const error = new Error("La dotación no pertenece al evento indicado");
     error.status = 400;
