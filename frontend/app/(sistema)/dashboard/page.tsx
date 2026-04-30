@@ -114,16 +114,16 @@ export default function DashboardPage() {
   return (
     <div className="space-y-6">
       <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-        <div className="grid gap-0 lg:grid-cols-[1.4fr_0.9fr]">
-          <div className="p-6 sm:p-8">
-            <p className="text-sm font-medium text-sky-700">
-              Inicio
-            </p>
-            <h1 className="mt-3 text-3xl font-bold tracking-normal text-slate-950 sm:text-4xl">
-              {fechaInicio.charAt(0).toUpperCase() + fechaInicio.slice(1)}
-            </h1>
+        <div className="grid min-h-[260px] gap-0 lg:grid-cols-[1.45fr_0.85fr]">
+          <div className="flex flex-col justify-center p-6 sm:p-8">
+            <div>
+              <p className="text-sm font-medium text-sky-700">Inicio</p>
+              <h1 className="mt-3 text-3xl font-bold tracking-normal text-slate-950 sm:text-4xl">
+                {fechaInicio.charAt(0).toUpperCase() + fechaInicio.slice(1)}
+              </h1>
+            </div>
 
-            <div className="mt-6 flex flex-wrap gap-3">
+            <div className="mt-7 flex flex-wrap gap-3">
               <Link
                 href="/eventos"
                 className="rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
@@ -139,7 +139,7 @@ export default function DashboardPage() {
             </div>
           </div>
 
-          <div className="border-t border-slate-200 bg-slate-50 p-6 lg:border-l lg:border-t-0">
+          <div className="flex flex-col justify-center border-t border-slate-200 bg-slate-50 p-6 lg:border-l lg:border-t-0">
             <p className="text-sm font-semibold text-slate-900">Estado general</p>
             <div className="mt-4 grid grid-cols-2 gap-3">
               <div className="rounded-xl border border-slate-200 bg-white p-4">
@@ -152,18 +152,6 @@ export default function DashboardPage() {
                 <p className="text-xs font-medium text-slate-500">Activos</p>
                 <p className="mt-2 text-3xl font-bold text-emerald-700">
                   {loading ? "-" : stats.activos}
-                </p>
-              </div>
-              <div className="rounded-xl border border-slate-200 bg-white p-4">
-                <p className="text-xs font-medium text-slate-500">Inactivos</p>
-                <p className="mt-2 text-3xl font-bold text-slate-700">
-                  {loading ? "-" : stats.inactivos}
-                </p>
-              </div>
-              <div className="rounded-xl border border-slate-200 bg-white p-4">
-                <p className="text-xs font-medium text-slate-500">Total personal</p>
-                <p className="mt-2 text-3xl font-bold text-slate-950">
-                  {loading ? "-" : personas.length}
                 </p>
               </div>
               <div className="rounded-xl border border-slate-200 bg-white p-4">
