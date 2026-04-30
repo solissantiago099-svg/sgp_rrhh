@@ -205,7 +205,7 @@ export default function PosicionamientoEventoPage() {
 
         setEvento(eventoData);
         setEventos(eventosData);
-        setPersonas(personasData);
+        setPersonas(personasData.filter((persona) => persona.activo));
         setPersonalFijo(personalFijoData);
         setTodosPosicionamientos(todosPosicionamientosData);
         setDotacion(buildDotacionState(dotacionesData, posicionamientosData));

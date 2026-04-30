@@ -55,6 +55,11 @@ const create = async (persona) => {
   return persona;
 };
 
+const replaceAll = async (personas) => {
+  writePersonasFile(personas);
+  return personas;
+};
+
 module.exports = {
   getAll,
   getAllFijos,
@@ -63,4 +68,5 @@ module.exports = {
   getByCuil,
   getById,
   create,
+  replaceAll,
 };

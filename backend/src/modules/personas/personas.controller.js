@@ -27,8 +27,18 @@ const createPersona = async (req, res, next) => {
   }
 };
 
+const importMaestroPersonas = async (req, res, next) => {
+  try {
+    const resultado = await personasService.importMaestroPersonas(req.body);
+    res.json(resultado);
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = {
   getAllPersonas,
   getAllPersonalFijo,
   createPersona,
+  importMaestroPersonas,
 };
