@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const menuItems = [
-  { label: "Inicio", href: "/dashboard", icon: "🏠" },
-  { label: "Eventos", href: "/eventos", icon: "🎫" },
-  { label: "Personal", href: "/personas", icon: "👥" },
+  { label: "Inicio", href: "/dashboard", icon: "IN" },
+  { label: "Eventos", href: "/eventos", icon: "EV" },
+  { label: "Personal", href: "/personas", icon: "PE" },
 ];
 
 interface User {
@@ -40,12 +40,10 @@ export default function SistemaLayout({
   });
 
   useEffect(() => {
-    // Validar que exista token
     const token = localStorage.getItem("token");
 
     if (!token || !user) {
       router.push("/login");
-      return;
     }
   }, [router, user]);
 
@@ -57,7 +55,7 @@ export default function SistemaLayout({
 
   if (typeof window === "undefined") {
     return (
-      <div className="min-h-screen bg-slate-100 flex items-center justify-center">
+      <div className="flex min-h-screen items-center justify-center bg-slate-100">
         <div className="text-slate-600">Cargando...</div>
       </div>
     );
@@ -68,25 +66,25 @@ export default function SistemaLayout({
   }
 
   return (
-    <div className="min-h-screen bg-slate-100 flex">
+    <div className="flex min-h-screen bg-slate-100">
       <aside
-        className={`bg-slate-900 text-white transition-all duration-300 ${
+        className={`bg-[#111111] text-white shadow-xl shadow-slate-950/10 transition-all duration-300 ${
           collapsed ? "w-20" : "w-64"
         }`}
       >
-        <div className="h-16 flex items-center justify-between px-4 border-b border-slate-800">
-          {!collapsed && <h1 className="font-bold text-lg">SGP RRHH</h1>}
+        <div className="flex h-16 items-center justify-between border-b border-white/10 px-4">
+          {!collapsed && <h1 className="text-lg font-bold">Sistema SGP</h1>}
 
           <button
             onClick={() => setCollapsed(!collapsed)}
-            className="rounded-lg px-2 py-1 hover:bg-slate-800"
+            className="rounded-lg px-2 py-1 text-slate-200 transition hover:bg-white/10 hover:text-white"
             aria-label="Alternar menú"
           >
             ☰
           </button>
         </div>
 
-        <nav className="p-3 space-y-2">
+        <nav className="space-y-2 p-3">
           {menuItems.map((item) => {
             const isActive =
               pathname === item.href || pathname.startsWith(`${item.href}/`);
@@ -97,11 +95,17 @@ export default function SistemaLayout({
                 href={item.href}
                 className={`flex items-center gap-3 rounded-xl px-3 py-3 transition ${
                   isActive
-                    ? "bg-slate-800 text-white"
-                    : "text-slate-300 hover:bg-slate-800 hover:text-white"
+                    ? "bg-white text-[#111111]"
+                    : "text-slate-300 hover:bg-white/10 hover:text-white"
                 }`}
               >
-                <span className="text-lg">{item.icon}</span>
+                <span
+                  className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-[11px] font-bold ${
+                    isActive ? "bg-[#111111] text-white" : "bg-white/10 text-slate-200"
+                  }`}
+                >
+                  {item.icon}
+                </span>
                 {!collapsed && <span className="font-medium">{item.label}</span>}
               </Link>
             );
@@ -109,25 +113,21 @@ export default function SistemaLayout({
         </nav>
       </aside>
 
-      <div className="flex-1 flex flex-col min-w-0">
-        <header className="h-16 bg-white border-b border-slate-200 flex items-center justify-between px-6">
-          <div>
-            <h2 className="text-lg font-semibold text-slate-900">
-              Sistema de Gestión
-            </h2>
-          </div>
+      <div className="flex min-w-0 flex-1 flex-col">
+        <header className="flex h-16 items-center justify-between border-b border-white/10 bg-[#111111] px-6 text-white shadow-sm">
+          <h2 className="text-lg font-semibold text-white">Sistema SGP</h2>
 
           <div className="flex items-center gap-3">
             <div className="text-right">
-              <p className="text-sm font-medium text-slate-900">
+              <p className="text-sm font-medium text-white">
                 {user.nombre} {user.apellido}
               </p>
-              <p className="text-xs text-slate-500 capitalize">{user.rol}</p>
+              <p className="text-xs capitalize text-slate-400">{user.rol}</p>
             </div>
 
             <button
               onClick={handleLogout}
-              className="rounded-xl border border-slate-300 px-4 py-2 text-sm hover:bg-red-50 hover:border-red-300 hover:text-red-700 transition"
+              className="rounded-xl border border-white/15 px-4 py-2 text-sm text-slate-100 transition hover:border-red-300/70 hover:bg-red-500/10 hover:text-red-100"
             >
               Salir
             </button>
