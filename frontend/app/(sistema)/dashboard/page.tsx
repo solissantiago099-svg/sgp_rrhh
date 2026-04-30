@@ -184,9 +184,6 @@ export default function DashboardPage() {
               <h2 className="text-lg font-semibold text-slate-950">
                 Próximos eventos
               </h2>
-              <p className="mt-1 text-sm text-slate-500">
-                Lo que conviene mirar primero.
-              </p>
             </div>
             <Link
               href="/eventos"
