@@ -27,6 +27,14 @@ function formatEstado(value: string) {
   return value.charAt(0).toUpperCase() + value.slice(1);
 }
 
+function getEstadoClass(value: string) {
+  if (value === "pendiente") return "bg-amber-50 text-amber-700";
+  if (value === "convocatoria" || value === "asistencia") {
+    return "bg-sky-50 text-sky-700";
+  }
+  return "bg-slate-100 text-slate-700";
+}
+
 function getEventoRoute(evento: Evento) {
   if (evento.estado === "convocatoria" || evento.estado === "asistencia") {
     return `/eventos/${evento.id}/convocatoria`;
@@ -190,7 +198,7 @@ export default function EventosPage() {
         </div>
       </div>
 
-      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+      <div className="overflow-hidden rounded-2xl border border-slate-300 bg-white shadow-sm">
         {loading ? (
           <div className="p-6 text-slate-500">Cargando eventos...</div>
         ) : error ? (
@@ -201,27 +209,35 @@ export default function EventosPage() {
           </div>
         ) : (
           <table className="w-full text-sm">
-            <thead className="bg-slate-50 text-slate-600">
+            <thead className="bg-slate-100 text-xs uppercase tracking-wide text-slate-600">
               <tr>
-                <th className="text-left px-4 py-3">Fecha</th>
-                <th className="text-left px-4 py-3">Evento</th>
-                <th className="text-left px-4 py-3">Salón</th>
-                <th className="text-left px-4 py-3">Cliente</th>
-                <th className="text-left px-4 py-3">Estado</th>
-                <th className="text-left px-4 py-3">Acción</th>
+                <th className="px-4 py-3 text-left">Fecha</th>
+                <th className="px-4 py-3 text-left">Evento</th>
+                <th className="px-4 py-3 text-left">Salón</th>
+                <th className="px-4 py-3 text-left">Cliente</th>
+                <th className="px-4 py-3 text-left">Estado</th>
+                <th className="px-4 py-3 text-left">Acción</th>
               </tr>
             </thead>
 
-            <tbody>
+            <tbody className="divide-y divide-slate-200">
               {eventos.map((evento) => (
-                <tr key={evento.id} className="border-t border-slate-200">
+                <tr key={evento.id} className="transition hover:bg-slate-50">
                   <td className="px-4 py-3">{formatDate(evento.fecha_evento)}</td>
                   <td className="px-4 py-3 font-medium text-slate-900">
                     {evento.nombre_evento}
                   </td>
                   <td className="px-4 py-3">{evento.salon}</td>
                   <td className="px-4 py-3">{evento.cliente_evento}</td>
-                  <td className="px-4 py-3">{formatEstado(evento.estado)}</td>
+                  <td className="px-4 py-3">
+                    <span
+                      className={`rounded-full px-3 py-1 text-xs font-semibold ${getEstadoClass(
+                        evento.estado
+                      )}`}
+                    >
+                      {formatEstado(evento.estado)}
+                    </span>
+                  </td>
                   <td className="px-4 py-3">
                     <button
                       type="button"

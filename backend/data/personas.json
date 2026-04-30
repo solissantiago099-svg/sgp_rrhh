@@ -7,9 +7,13 @@
     "cuil": "20-21522857-7",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46059",
+    "fecha_ingreso": "2026-06-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10005,
@@ -19,9 +23,13 @@
     "cuil": "27-31306819-1",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46079",
+    "fecha_ingreso": "2026-26-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10008,
@@ -31,9 +39,13 @@
     "cuil": "20-41141100-2",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46106",
+    "fecha_ingreso": "2026-25-03",
     "cbu": "0070180430004083426268",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10024,
@@ -43,9 +55,13 @@
     "cuil": "27-33606764-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10030,
@@ -55,9 +71,13 @@
     "cuil": "27-43306910-8",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46078",
+    "fecha_ingreso": "2026-25-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10033,
@@ -67,9 +87,13 @@
     "cuil": "23-45499740-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10034,
@@ -79,9 +103,13 @@
     "cuil": "27-44997714-4",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46095",
+    "fecha_ingreso": "2026-14-03",
     "cbu": "0070335030004057473292",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10036,
@@ -91,9 +119,13 @@
     "cuil": "27-42313063-1",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10037,
@@ -103,9 +135,13 @@
     "cuil": "20-37022878-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46088",
+    "fecha_ingreso": "2026-07-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10040,
@@ -115,9 +151,13 @@
     "cuil": "20-21939435-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46062",
+    "fecha_ingreso": "2026-09-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10059,
@@ -127,9 +167,13 @@
     "cuil": "20-43388939-9",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10068,
@@ -139,9 +183,13 @@
     "cuil": "20-44795723-0",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10090,
@@ -151,9 +199,13 @@
     "cuil": "27-34383308-9",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10094,
@@ -163,9 +215,13 @@
     "cuil": "27-38887016-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46059",
+    "fecha_ingreso": "2026-06-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10122,
@@ -175,9 +231,13 @@
     "cuil": "27-33288294-0",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46067",
+    "fecha_ingreso": "2026-14-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10123,
@@ -187,9 +247,13 @@
     "cuil": "20-39663814-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46067",
+    "fecha_ingreso": "2026-14-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10128,
@@ -199,9 +263,13 @@
     "cuil": "20-34956299-6",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46059",
+    "fecha_ingreso": "2026-06-02",
     "cbu": "0140062503500853861959",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10133,
@@ -211,9 +279,13 @@
     "cuil": "27-33511537-1",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46082",
+    "fecha_ingreso": "2026-01-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10134,
@@ -223,9 +295,13 @@
     "cuil": "27-43101073-4",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10135,
@@ -235,9 +311,13 @@
     "cuil": "20-21773456-9",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10151,
@@ -247,9 +327,13 @@
     "cuil": "27-25680298-3",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46076",
+    "fecha_ingreso": "2026-23-02",
     "cbu": "0110029730002905206483",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10154,
@@ -259,9 +343,13 @@
     "cuil": "27-36084162-1",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46059",
+    "fecha_ingreso": "2026-06-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10157,
@@ -271,9 +359,13 @@
     "cuil": "27-44795701-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10167,
@@ -285,7 +377,7 @@
     "tarea": "Camarero Extra",
     "fecha_ingreso": "46092",
     "cbu": null,
-    "activo": true
+    "activo": false
   },
   {
     "id": 10171,
@@ -295,9 +387,13 @@
     "cuil": "20-41163125-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46079",
+    "fecha_ingreso": "2026-26-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10205,
@@ -307,9 +403,13 @@
     "cuil": "20-44755689-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140080903503152042911",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10212,
@@ -319,9 +419,13 @@
     "cuil": "20-40655042-8",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46084",
+    "fecha_ingreso": "2026-03-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10233,
@@ -331,9 +435,13 @@
     "cuil": "27-43521877-1",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10236,
@@ -345,7 +453,7 @@
     "tarea": "Cocinero Extra",
     "fecha_ingreso": "46059",
     "cbu": null,
-    "activo": true
+    "activo": false
   },
   {
     "id": 10243,
@@ -355,9 +463,13 @@
     "cuil": "23-30914830-4",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10245,
@@ -367,9 +479,13 @@
     "cuil": "20-30527546-9",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46086",
+    "fecha_ingreso": "2026-05-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10252,
@@ -379,9 +495,13 @@
     "cuil": "27-36155200-3",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10270,
@@ -391,9 +511,13 @@
     "cuil": "27-46337497-5",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46056",
+    "fecha_ingreso": "2026-03-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10274,
@@ -403,9 +527,13 @@
     "cuil": "27-25148870-9",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46059",
+    "fecha_ingreso": "2026-06-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10282,
@@ -415,9 +543,13 @@
     "cuil": "20-92410120-3",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10285,
@@ -427,9 +559,13 @@
     "cuil": "27-16000449-0",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46067",
+    "fecha_ingreso": "2026-14-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10295,
@@ -439,9 +575,13 @@
     "cuil": "20-40741769-1",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10296,
@@ -451,9 +591,13 @@
     "cuil": "23-18907921-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46067",
+    "fecha_ingreso": "2026-14-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10298,
@@ -463,9 +607,13 @@
     "cuil": "20-44053647-7",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46090",
+    "fecha_ingreso": "2026-09-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10305,
@@ -475,9 +623,13 @@
     "cuil": "27-32999704-4",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46084",
+    "fecha_ingreso": "2026-03-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10306,
@@ -487,9 +639,13 @@
     "cuil": "27-40767546-6",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10333,
@@ -499,9 +655,13 @@
     "cuil": "20-46416870-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46064",
+    "fecha_ingreso": "2026-11-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10337,
@@ -511,9 +671,13 @@
     "cuil": "27-44750579-2",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110041930004125843529",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10346,
@@ -523,9 +687,13 @@
     "cuil": "27-42623445-4",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46067",
+    "fecha_ingreso": "2026-14-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10347,
@@ -535,9 +703,13 @@
     "cuil": "20-46337778-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46055",
+    "fecha_ingreso": "2026-02-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10352,
@@ -547,9 +719,13 @@
     "cuil": "20-44698533-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10355,
@@ -559,9 +735,13 @@
     "cuil": "27-44352500-4",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10358,
@@ -571,9 +751,13 @@
     "cuil": "27-35608133-7",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46064",
+    "fecha_ingreso": "2026-11-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10369,
@@ -583,9 +767,13 @@
     "cuil": "20-43984159-2",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10370,
@@ -595,9 +783,13 @@
     "cuil": "27-41567389-8",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10380,
@@ -607,9 +799,13 @@
     "cuil": "27-43780928-9",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": "0270061820047480980022",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10385,
@@ -619,9 +815,13 @@
     "cuil": "20-45826183-1",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10420,
@@ -631,21 +831,29 @@
     "cuil": "23-32088266-4",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46056",
+    "fecha_ingreso": "2026-03-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
-    "id": 10443,
-    "legajo": 10443,
-    "apellido": "DE AGUSTINI",
-    "nombre": "Franco Gabriel",
-    "cuil": "20-46124754-8",
+    "id": 10426,
+    "legajo": 10426,
+    "apellido": "LEZCANO",
+    "nombre": "Lucas de Jesus",
+    "cuil": "20-56505337-0",
     "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46055",
+    "fecha_ingreso": "2026-01-04",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10446,
@@ -655,9 +863,13 @@
     "cuil": "27-42197254-6",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10448,
@@ -667,9 +879,13 @@
     "cuil": "23-47086967-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10505,
@@ -679,9 +895,13 @@
     "cuil": "20-45573782-7",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46055",
+    "fecha_ingreso": "2026-02-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10525,
@@ -691,9 +911,13 @@
     "cuil": "27-31783292-9",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10565,
@@ -703,9 +927,13 @@
     "cuil": "27-37823629-6",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10570,
@@ -715,9 +943,13 @@
     "cuil": "20-46215301-6",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0270252220054200730018",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10571,
@@ -727,9 +959,13 @@
     "cuil": "20-35155994-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46090",
+    "fecha_ingreso": "2026-09-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10580,
@@ -739,9 +975,13 @@
     "cuil": "27-45300730-3",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10660,
@@ -751,9 +991,13 @@
     "cuil": "27-22639114-8",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10661,
@@ -763,9 +1007,13 @@
     "cuil": "20-45779165-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10662,
@@ -775,9 +1023,13 @@
     "cuil": "24-47482979-7",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10676,
@@ -787,9 +1039,13 @@
     "cuil": "23-45496638-4",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110091430009133394515",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10681,
@@ -799,9 +1055,13 @@
     "cuil": "27-37256168-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10682,
@@ -811,9 +1071,13 @@
     "cuil": "27-37367852-5",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10685,
@@ -823,9 +1087,13 @@
     "cuil": "20-43394455-1",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46088",
+    "fecha_ingreso": "2026-07-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10694,
@@ -835,9 +1103,13 @@
     "cuil": "27-45814374-4",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46096",
+    "fecha_ingreso": "2026-15-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10699,
@@ -847,9 +1119,13 @@
     "cuil": "27-43000481-1",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10707,
@@ -859,9 +1135,13 @@
     "cuil": "20-22531797-7",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10742,
@@ -871,9 +1151,13 @@
     "cuil": "27-39959125-8",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10746,
@@ -883,9 +1167,13 @@
     "cuil": "20-46749710-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10748,
@@ -895,9 +1183,13 @@
     "cuil": "27-31986727-4",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10772,
@@ -907,9 +1199,13 @@
     "cuil": "27-43170234-2",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140039703511458667400",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10787,
@@ -919,9 +1215,13 @@
     "cuil": "27-30505535-8",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46085",
+    "fecha_ingreso": "2026-04-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10807,
@@ -931,9 +1231,13 @@
     "cuil": "23-44094866-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10861,
@@ -943,9 +1247,13 @@
     "cuil": "27-30931402-1",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10865,
@@ -955,9 +1263,13 @@
     "cuil": "20-40303796-7",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10957,
@@ -967,9 +1279,13 @@
     "cuil": "20-45611572-2",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46090",
+    "fecha_ingreso": "2026-09-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10958,
@@ -979,9 +1295,13 @@
     "cuil": "23-47097600-4",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10980,
@@ -991,9 +1311,13 @@
     "cuil": "27-30320675-8",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46085",
+    "fecha_ingreso": "2026-04-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 10991,
@@ -1003,9 +1327,13 @@
     "cuil": "27-27823116-5",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11014,
@@ -1015,9 +1343,13 @@
     "cuil": "27-45221644-8",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11024,
@@ -1027,9 +1359,13 @@
     "cuil": "20-29039913-1",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46091",
+    "fecha_ingreso": "2026-10-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11037,
@@ -1041,7 +1377,7 @@
     "tarea": "Camarera Extra",
     "fecha_ingreso": "46082",
     "cbu": "0340128208128032132008",
-    "activo": true
+    "activo": false
   },
   {
     "id": 11039,
@@ -1051,9 +1387,13 @@
     "cuil": "20-32558893-5",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46090",
+    "fecha_ingreso": "2026-09-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11046,
@@ -1063,9 +1403,13 @@
     "cuil": "27-42956386-6",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46067",
+    "fecha_ingreso": "2026-14-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11048,
@@ -1075,9 +1419,13 @@
     "cuil": "20-44088597-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11051,
@@ -1089,7 +1437,7 @@
     "tarea": "Bachera Extra",
     "fecha_ingreso": "46101",
     "cbu": "0110613430061310441829",
-    "activo": true
+    "activo": false
   },
   {
     "id": 11056,
@@ -1099,9 +1447,13 @@
     "cuil": "27-43915074-8",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46059",
+    "fecha_ingreso": "2026-06-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11060,
@@ -1113,7 +1465,7 @@
     "tarea": "Bachera Extra",
     "fecha_ingreso": "46055",
     "cbu": null,
-    "activo": true
+    "activo": false
   },
   {
     "id": 11066,
@@ -1123,9 +1475,13 @@
     "cuil": "27-37682278-3",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46059",
+    "fecha_ingreso": "2026-06-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11067,
@@ -1135,9 +1491,13 @@
     "cuil": "20-46095744-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11078,
@@ -1147,9 +1507,13 @@
     "cuil": "27-43462252-8",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11090,
@@ -1159,9 +1523,13 @@
     "cuil": "27-45994320-5",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46067",
+    "fecha_ingreso": "2026-14-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11118,
@@ -1171,9 +1539,13 @@
     "cuil": "23-47185322-4",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110092130009221689015",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11124,
@@ -1183,9 +1555,13 @@
     "cuil": "27-46954387-6",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140115403504658163001",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11130,
@@ -1195,9 +1571,13 @@
     "cuil": "20-43974521-6",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0270252220045990030011",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11135,
@@ -1207,9 +1587,13 @@
     "cuil": "20-47955155-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46063",
+    "fecha_ingreso": "2026-10-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11149,
@@ -1219,9 +1603,13 @@
     "cuil": "27-23066683-6",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46076",
+    "fecha_ingreso": "2026-23-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11160,
@@ -1231,9 +1619,13 @@
     "cuil": "27-40946488-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46109",
+    "fecha_ingreso": "2026-28-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11161,
@@ -1243,9 +1635,13 @@
     "cuil": "20-37216630-5",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "45931",
+    "fecha_ingreso": "2025-01-10",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11167,
@@ -1255,9 +1651,13 @@
     "cuil": "20-43873466-0",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46059",
+    "fecha_ingreso": "2026-06-02",
     "cbu": "0070680930004015080067",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11173,
@@ -1267,9 +1667,13 @@
     "cuil": "20-46118271-3",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46093",
+    "fecha_ingreso": "2026-12-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11178,
@@ -1279,9 +1683,13 @@
     "cuil": "27-35456492-6",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11183,
@@ -1293,7 +1701,7 @@
     "tarea": "Cocinero Extra",
     "fecha_ingreso": "46077",
     "cbu": null,
-    "activo": true
+    "activo": false
   },
   {
     "id": 11188,
@@ -1303,9 +1711,13 @@
     "cuil": "27-30655155-3",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46076",
+    "fecha_ingreso": "2026-23-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11205,
@@ -1315,9 +1727,13 @@
     "cuil": "20-43736162-3",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110701430070113228647",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11208,
@@ -1327,9 +1743,13 @@
     "cuil": "20-43098462-5",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46095",
+    "fecha_ingreso": "2026-14-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11210,
@@ -1339,9 +1759,13 @@
     "cuil": "20-46022430-7",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11211,
@@ -1351,9 +1775,13 @@
     "cuil": "23-46266214-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46090",
+    "fecha_ingreso": "2026-09-03",
     "cbu": "0110625730062524601797",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11217,
@@ -1363,9 +1791,13 @@
     "cuil": "27-40471514-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": "0140137603506056896439",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11218,
@@ -1375,9 +1807,13 @@
     "cuil": "27-46739921-2",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11221,
@@ -1387,9 +1823,13 @@
     "cuil": "27-47495511-2",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46095",
+    "fecha_ingreso": "2026-14-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11222,
@@ -1401,7 +1841,7 @@
     "tarea": "Cocinera Extra",
     "fecha_ingreso": "46093",
     "cbu": null,
-    "activo": true
+    "activo": false
   },
   {
     "id": 11227,
@@ -1411,9 +1851,13 @@
     "cuil": "20-46109060-6",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11232,
@@ -1423,9 +1867,13 @@
     "cuil": "20-45298934-5",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46088",
+    "fecha_ingreso": "2026-07-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11235,
@@ -1435,9 +1883,13 @@
     "cuil": "27-94940364-0",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11237,
@@ -1447,9 +1899,13 @@
     "cuil": "27-43721240-1",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46086",
+    "fecha_ingreso": "2026-05-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11238,
@@ -1459,9 +1915,13 @@
     "cuil": "27-47114871-2",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140033503502562321320",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11239,
@@ -1473,7 +1933,7 @@
     "tarea": "Cocinero Extra",
     "fecha_ingreso": "46088",
     "cbu": null,
-    "activo": true
+    "activo": false
   },
   {
     "id": 11247,
@@ -1483,9 +1943,13 @@
     "cuil": "20-35820078-9",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11251,
@@ -1495,9 +1959,13 @@
     "cuil": "20-40491093-1",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46086",
+    "fecha_ingreso": "2026-05-03",
     "cbu": "4530000800011206394622",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11252,
@@ -1507,9 +1975,13 @@
     "cuil": "27-47674706-1",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46079",
+    "fecha_ingreso": "2026-26-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11254,
@@ -1519,9 +1991,13 @@
     "cuil": "20-43519470-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11256,
@@ -1531,9 +2007,13 @@
     "cuil": "20-43724494-5",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11258,
@@ -1543,9 +2023,13 @@
     "cuil": "27-44545969-6",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46059",
+    "fecha_ingreso": "2026-06-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11259,
@@ -1555,9 +2039,13 @@
     "cuil": "27-46157357-1",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46101",
+    "fecha_ingreso": "2026-20-03",
     "cbu": "0720125388000003381690",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11262,
@@ -1567,9 +2055,13 @@
     "cuil": "27-38457071-8",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0720575088000003211368",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11278,
@@ -1579,9 +2071,13 @@
     "cuil": "27-33130361-0",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140139003510150365180",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11284,
@@ -1591,9 +2087,13 @@
     "cuil": "27-45522857-9",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11321,
@@ -1603,9 +2103,29 @@
     "cuil": "20-43249567-2",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11329,
+    "legajo": 11329,
+    "apellido": "ARAYA",
+    "nombre": "Hilda Graciela",
+    "cuil": "27-42843087-0",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "ANA",
+    "tarea": "Cocinero Extra",
+    "fecha_ingreso": "2026-11-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11332,
@@ -1615,9 +2135,13 @@
     "cuil": "27-43387694-1",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46108",
+    "fecha_ingreso": "2026-27-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11333,
@@ -1627,9 +2151,13 @@
     "cuil": "27-36067705-8",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46088",
+    "fecha_ingreso": "2026-07-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11334,
@@ -1639,9 +2167,13 @@
     "cuil": "27-35902545-4",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11335,
@@ -1651,9 +2183,13 @@
     "cuil": "27-43264585-7",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11339,
@@ -1663,9 +2199,13 @@
     "cuil": "23-46624749-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11341,
@@ -1675,9 +2215,13 @@
     "cuil": "20-43107914-4",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11344,
@@ -1687,9 +2231,13 @@
     "cuil": "20-47311061-0",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11353,
@@ -1699,9 +2247,13 @@
     "cuil": "20-44598035-9",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11372,
@@ -1711,9 +2263,29 @@
     "cuil": "27-94008238-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46096",
+    "fecha_ingreso": "2026-15-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11389,
+    "legajo": 11389,
+    "apellido": "BARBONA",
+    "nombre": "Cristian Agustin",
+    "cuil": "20-47234874-5",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "ANA",
+    "tarea": "Cocinero Extra",
+    "fecha_ingreso": "2026-11-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11396,
@@ -1723,9 +2295,13 @@
     "cuil": "20-44170970-7",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46063",
+    "fecha_ingreso": "2026-10-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11400,
@@ -1735,9 +2311,13 @@
     "cuil": "27-31725015-6",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46092",
+    "fecha_ingreso": "2026-11-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11423,
@@ -1747,9 +2327,13 @@
     "cuil": "27-47012837-8",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46063",
+    "fecha_ingreso": "2026-10-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11447,
@@ -1759,9 +2343,13 @@
     "cuil": "27-41384789-9",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46067",
+    "fecha_ingreso": "2026-14-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11457,
@@ -1771,9 +2359,13 @@
     "cuil": "27-45299490-4",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46087",
+    "fecha_ingreso": "2026-06-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11460,
@@ -1783,9 +2375,13 @@
     "cuil": "27-27713141-8",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11464,
@@ -1797,7 +2393,7 @@
     "tarea": "Cocinera Extra",
     "fecha_ingreso": "46081",
     "cbu": null,
-    "activo": true
+    "activo": false
   },
   {
     "id": 11490,
@@ -1807,9 +2403,13 @@
     "cuil": "27-41882469-2",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11501,
@@ -1819,9 +2419,13 @@
     "cuil": "27-45192599-2",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11515,
@@ -1831,9 +2435,13 @@
     "cuil": "27-36648299-2",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46088",
+    "fecha_ingreso": "2026-07-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11516,
@@ -1843,9 +2451,13 @@
     "cuil": "20-45736399-1",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46096",
+    "fecha_ingreso": "2026-15-03",
     "cbu": "0070180430004093982154",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11538,
@@ -1855,9 +2467,13 @@
     "cuil": "20-23524108-1",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46096",
+    "fecha_ingreso": "2026-15-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11550,
@@ -1867,9 +2483,13 @@
     "cuil": "27-35393213-1",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46088",
+    "fecha_ingreso": "2026-07-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11560,
@@ -1879,9 +2499,13 @@
     "cuil": "27-46357862-7",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11615,
@@ -1891,9 +2515,29 @@
     "cuil": "27-44935923-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0070701730004009941444",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11619,
+    "legajo": 11619,
+    "apellido": "CORNEJO",
+    "nombre": "Pablo Raul",
+    "cuil": "20-43183742-1",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "ANA",
+    "tarea": "Cocinero Extra",
+    "fecha_ingreso": "2026-11-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11626,
@@ -1905,7 +2549,23 @@
     "tarea": "Limpieza Extra",
     "fecha_ingreso": "46102",
     "cbu": "0170035040000004001106",
-    "activo": true
+    "activo": false
+  },
+  {
+    "id": 11637,
+    "legajo": 11637,
+    "apellido": "VONDER HEIDE",
+    "nombre": "Cristina Alejandra",
+    "cuil": "27-29891487-0",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "ANA",
+    "tarea": "Cocinero Extra",
+    "fecha_ingreso": "2026-11-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11684,
@@ -1915,9 +2575,13 @@
     "cuil": "20-42887813-3",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46059",
+    "fecha_ingreso": "2026-06-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ORIGAMI",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11686,
@@ -1927,9 +2591,13 @@
     "cuil": "20-47834135-1",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11694,
@@ -1939,9 +2607,13 @@
     "cuil": "27-42493036-4",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46080",
+    "fecha_ingreso": "2026-27-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11698,
@@ -1951,9 +2623,13 @@
     "cuil": "27-44384137-2",
     "categoria": "Categoria I",
     "tarea": "Peon Extra",
-    "fecha_ingreso": "46055",
+    "fecha_ingreso": "2026-02-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11701,
@@ -1963,9 +2639,13 @@
     "cuil": "20-49241618-6",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46096",
+    "fecha_ingreso": "2026-15-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11708,
@@ -1975,9 +2655,13 @@
     "cuil": "20-44254442-6",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110614130061416331529",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11710,
@@ -1987,9 +2671,13 @@
     "cuil": "27-94498079-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46096",
+    "fecha_ingreso": "2026-15-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11717,
@@ -1999,9 +2687,13 @@
     "cuil": "27-41317690-0",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46071",
+    "fecha_ingreso": "2026-18-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11719,
@@ -2011,9 +2703,45 @@
     "cuil": "23-44423033-9",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46071",
+    "fecha_ingreso": "2026-18-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11720,
+    "legajo": 11720,
+    "apellido": "CABRAL",
+    "nombre": "Gonzalo",
+    "cuil": "20-42570885-7",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Barman Extra",
+    "fecha_ingreso": "2026-22-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11722,
+    "legajo": 11722,
+    "apellido": "AGUIRRE",
+    "nombre": "Priscila Nahiara",
+    "cuil": "27-46748573-9",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Barman Extra",
+    "fecha_ingreso": "2026-27-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11723,
@@ -2023,9 +2751,29 @@
     "cuil": "27-42457257-3",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46101",
+    "fecha_ingreso": "2026-20-03",
     "cbu": "0140140603508853449997",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11724,
+    "legajo": 11724,
+    "apellido": "COITINHO",
+    "nombre": "Luz de los Milagros",
+    "cuil": "27-45581398-6",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Barman Extra",
+    "fecha_ingreso": "2026-24-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11725,
@@ -2035,9 +2783,13 @@
     "cuil": "20-35902263-9",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0720050288000001578290",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11728,
@@ -2047,9 +2799,13 @@
     "cuil": "20-47757449-2",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "3840200500000024229654",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11729,
@@ -2059,9 +2815,13 @@
     "cuil": "27-45008044-1",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0340298808298035799000",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11732,
@@ -2071,9 +2831,13 @@
     "cuil": "20-42290290-3",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0170156840000007771482",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11743,
@@ -2083,9 +2847,45 @@
     "cuil": "27-31597655-9",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46090",
+    "fecha_ingreso": "2026-09-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11744,
+    "legajo": 11744,
+    "apellido": "LATIFF",
+    "nombre": "Eric Agustin",
+    "cuil": "20-44354569-8",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Barman Extra",
+    "fecha_ingreso": "2026-22-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11745,
+    "legajo": 11745,
+    "apellido": "OVIEDO",
+    "nombre": "Florencia Nahir",
+    "cuil": "23-44411945-4",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Barman Extra",
+    "fecha_ingreso": "2026-27-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11748,
@@ -2095,9 +2895,13 @@
     "cuil": "27-42053865-6",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0270206520056260310010",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11753,
@@ -2107,9 +2911,13 @@
     "cuil": "27-45065209-7",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140130703505453843626",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11755,
@@ -2119,9 +2927,13 @@
     "cuil": "20-46209671-3",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46067",
+    "fecha_ingreso": "2026-14-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11758,
@@ -2131,9 +2943,13 @@
     "cuil": "27-47273479-8",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0140109303504463167948",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11759,
@@ -2143,9 +2959,13 @@
     "cuil": "23-42493727-4",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0140109303504458117082",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11768,
@@ -2155,9 +2975,13 @@
     "cuil": "23-47030872-9",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46101",
+    "fecha_ingreso": "2026-20-03",
     "cbu": "0170150640000003782572",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11774,
@@ -2167,9 +2991,13 @@
     "cuil": "27-42536128-2",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46101",
+    "fecha_ingreso": "2026-20-03",
     "cbu": "0140102403402580747637",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11776,
@@ -2179,9 +3007,13 @@
     "cuil": "20-45465162-7",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46083",
+    "fecha_ingreso": "2026-02-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11780,
@@ -2191,9 +3023,13 @@
     "cuil": "23-43239952-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46096",
+    "fecha_ingreso": "2026-15-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11781,
@@ -2203,9 +3039,13 @@
     "cuil": "20-38403072-7",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "45962",
+    "fecha_ingreso": "2025-01-11",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11792,
@@ -2215,9 +3055,13 @@
     "cuil": "20-44513509-8",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46079",
+    "fecha_ingreso": "2026-26-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11793,
@@ -2227,9 +3071,13 @@
     "cuil": "23-47220039-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11798,
@@ -2239,9 +3087,13 @@
     "cuil": "20-42834464-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11801,
@@ -2251,9 +3103,13 @@
     "cuil": "20-46335095-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "1910021655102103300235",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11802,
@@ -2263,9 +3119,13 @@
     "cuil": "27-47866060-5",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46084",
+    "fecha_ingreso": "2026-03-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11803,
@@ -2275,9 +3135,13 @@
     "cuil": "20-37022110-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46073",
+    "fecha_ingreso": "2026-20-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11806,
@@ -2287,9 +3151,13 @@
     "cuil": "20-42099814-8",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46056",
+    "fecha_ingreso": "2026-03-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11811,
@@ -2299,9 +3167,13 @@
     "cuil": "20-46353368-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": "0070180430004083248064",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11832,
@@ -2313,7 +3185,7 @@
     "tarea": "Camarero Extra",
     "fecha_ingreso": "46081",
     "cbu": null,
-    "activo": true
+    "activo": false
   },
   {
     "id": 11838,
@@ -2323,9 +3195,13 @@
     "cuil": "20-48168136-8",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46067",
+    "fecha_ingreso": "2026-14-02",
     "cbu": "0070132330004117839385",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11843,
@@ -2335,9 +3211,13 @@
     "cuil": "27-43444536-7",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110701430070116575283",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11857,
@@ -2347,9 +3227,13 @@
     "cuil": "27-26926352-6",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11859,
@@ -2359,9 +3243,29 @@
     "cuil": "20-40784059-4",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0170141440000005800030",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11863,
+    "legajo": 11863,
+    "apellido": "CIRUELOS ACOSTA",
+    "nombre": "Milagros",
+    "cuil": "23-48059637-4",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Barman Extra",
+    "fecha_ingreso": "2026-27-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11874,
@@ -2371,9 +3275,13 @@
     "cuil": "20-46640187-1",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46073",
+    "fecha_ingreso": "2026-20-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11876,
@@ -2383,9 +3291,61 @@
     "cuil": "20-43629385-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46080",
+    "fecha_ingreso": "2026-27-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11888,
+    "legajo": 11888,
+    "apellido": "CASMUZ",
+    "nombre": "Ornella Agostina",
+    "cuil": "27-48116591-7",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Barman Extra",
+    "fecha_ingreso": "2026-27-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11890,
+    "legajo": 11890,
+    "apellido": "BENJAMIN",
+    "nombre": "Sebastian Nicolas",
+    "cuil": "20-48159618-2",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Barman Extra",
+    "fecha_ingreso": "2026-22-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11891,
+    "legajo": 11891,
+    "apellido": "BARRIOS",
+    "nombre": "Victoria Alejandra",
+    "cuil": "27-42026297-9",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Barman Extra",
+    "fecha_ingreso": "2026-27-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11892,
@@ -2395,9 +3355,13 @@
     "cuil": "27-34353075-2",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0070175030004056200903",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11893,
@@ -2407,9 +3371,13 @@
     "cuil": "20-44670131-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46064",
+    "fecha_ingreso": "2026-11-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11894,
@@ -2419,9 +3387,13 @@
     "cuil": "20-46686660-2",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46090",
+    "fecha_ingreso": "2026-09-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11896,
@@ -2431,9 +3403,13 @@
     "cuil": "27-45612088-7",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11897,
@@ -2443,9 +3419,13 @@
     "cuil": "27-47635577-5",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140066303500658923500",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11901,
@@ -2455,9 +3435,13 @@
     "cuil": "27-46755325-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "2850507740095585663388",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11902,
@@ -2467,9 +3451,13 @@
     "cuil": "20-46340251-6",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46096",
+    "fecha_ingreso": "2026-15-03",
     "cbu": "4530000800018921780075",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11909,
@@ -2479,9 +3467,13 @@
     "cuil": "20-35753188-9",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46079",
+    "fecha_ingreso": "2026-26-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11910,
@@ -2491,9 +3483,29 @@
     "cuil": "27-39393599-0",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11920,
+    "legajo": 11920,
+    "apellido": "CUADRADO",
+    "nombre": "Jorge Marcelo",
+    "cuil": "23-18355700-9",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "ANA",
+    "tarea": "Cocinero Extra",
+    "fecha_ingreso": "2026-11-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11923,
@@ -2503,9 +3515,13 @@
     "cuil": "20-39810013-2",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11930,
@@ -2515,9 +3531,13 @@
     "cuil": "27-32155522-0",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46079",
+    "fecha_ingreso": "2026-26-02",
     "cbu": "0140023603506879229904",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11932,
@@ -2527,9 +3547,13 @@
     "cuil": "27-94168519-1",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11936,
@@ -2539,9 +3563,29 @@
     "cuil": "27-47412008-8",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0170017640000007629354",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11938,
+    "legajo": 11938,
+    "apellido": "CONTI GARAY",
+    "nombre": "Stefano Guido",
+    "cuil": "20-47758786-1",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Barman Extra",
+    "fecha_ingreso": "2026-27-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11946,
@@ -2551,9 +3595,13 @@
     "cuil": "27-43727045-2",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11948,
@@ -2563,9 +3611,13 @@
     "cuil": "27-47012393-7",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11952,
@@ -2575,9 +3627,13 @@
     "cuil": "20-47279532-6",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11954,
@@ -2587,9 +3643,13 @@
     "cuil": "20-47643080-2",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11955,
@@ -2599,9 +3659,13 @@
     "cuil": "27-46096048-2",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11956,
@@ -2611,9 +3675,13 @@
     "cuil": "27-39415784-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46104",
+    "fecha_ingreso": "2026-23-03",
     "cbu": "0140055703713753383360",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11957,
@@ -2623,9 +3691,13 @@
     "cuil": "23-46739220-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11958,
@@ -2635,9 +3707,13 @@
     "cuil": "27-43019956-6",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46096",
+    "fecha_ingreso": "2026-15-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11959,
@@ -2647,9 +3723,13 @@
     "cuil": "20-47114006-7",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140050203518154695384",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11960,
@@ -2659,9 +3739,13 @@
     "cuil": "27-45911378-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0070999030004164282057",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11963,
@@ -2671,9 +3755,13 @@
     "cuil": "20-46288248-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110029730002917358901",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11964,
@@ -2683,9 +3771,13 @@
     "cuil": "27-44379780-2",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46103",
+    "fecha_ingreso": "2026-22-03",
     "cbu": "0070008530004060436426",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11968,
@@ -2695,9 +3787,13 @@
     "cuil": "20-46565646-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11971,
@@ -2707,9 +3803,13 @@
     "cuil": "27-42088738-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140040303511861610309",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11972,
@@ -2719,9 +3819,13 @@
     "cuil": "27-42363388-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46096",
+    "fecha_ingreso": "2026-15-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11977,
@@ -2731,9 +3835,13 @@
     "cuil": "27-41834331-7",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11978,
@@ -2743,9 +3851,13 @@
     "cuil": "20-45988924-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": "0110092130009225266647",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11981,
@@ -2755,9 +3867,13 @@
     "cuil": "27-34460414-8",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11982,
@@ -2767,9 +3883,13 @@
     "cuil": "20-38634677-2",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11986,
@@ -2779,9 +3899,13 @@
     "cuil": "23-44959240-9",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46088",
+    "fecha_ingreso": "2026-07-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11987,
@@ -2791,9 +3915,13 @@
     "cuil": "27-44885404-9",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46059",
+    "fecha_ingreso": "2026-06-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11988,
@@ -2803,9 +3931,13 @@
     "cuil": "20-43265463-0",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46060",
+    "fecha_ingreso": "2026-07-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11994,
@@ -2815,9 +3947,13 @@
     "cuil": "27-48631617-4",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46086",
+    "fecha_ingreso": "2026-05-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 11996,
@@ -2827,9 +3963,29 @@
     "cuil": "20-40233591-3",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46079",
+    "fecha_ingreso": "2026-26-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 11999,
+    "legajo": 11999,
+    "apellido": "MOREIRA",
+    "nombre": "Luis Emilio",
+    "cuil": "20-25909465-9",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "ANA",
+    "tarea": "Cocinero Extra",
+    "fecha_ingreso": "2026-11-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12004,
@@ -2839,9 +3995,13 @@
     "cuil": "20-45225937-1",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140116103504861841899",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12005,
@@ -2851,9 +4011,13 @@
     "cuil": "27-43568596-5",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46063",
+    "fecha_ingreso": "2026-10-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12008,
@@ -2865,7 +4029,23 @@
     "tarea": "Bachero Extra",
     "fecha_ingreso": "46084",
     "cbu": null,
-    "activo": true
+    "activo": false
+  },
+  {
+    "id": 12034,
+    "legajo": 12034,
+    "apellido": "RIVEROS",
+    "nombre": "Angeles Ornella",
+    "cuil": "27-44238576-4",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "ANA",
+    "tarea": "Cocinera Extra",
+    "fecha_ingreso": "2026-11-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12037,
@@ -2875,9 +4055,13 @@
     "cuil": "27-46953117-7",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46087",
+    "fecha_ingreso": "2026-06-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12062,
@@ -2887,9 +4071,13 @@
     "cuil": "27-47172162-5",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110050130005028211897",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12068,
@@ -2899,9 +4087,13 @@
     "cuil": "27-47835941-7",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140093903700255986050",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12070,
@@ -2911,9 +4103,13 @@
     "cuil": "27-44700715-6",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "4530000800013332819387",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12071,
@@ -2923,9 +4119,13 @@
     "cuil": "20-43775883-3",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46095",
+    "fecha_ingreso": "2026-14-03",
     "cbu": "0110018130001817966351",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12073,
@@ -2935,9 +4135,13 @@
     "cuil": "27-29583198-2",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140081603503259820814",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12076,
@@ -2947,9 +4151,13 @@
     "cuil": "27-48058865-2",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0270018220061570680018",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12084,
@@ -2959,9 +4167,13 @@
     "cuil": "27-47277325-4",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46096",
+    "fecha_ingreso": "2026-15-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12085,
@@ -2971,9 +4183,13 @@
     "cuil": "20-46898122-0",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0070180430004094282093",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12092,
@@ -2983,9 +4199,13 @@
     "cuil": "27-41726715-3",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0070092430004029579517",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12093,
@@ -2995,9 +4215,13 @@
     "cuil": "23-46346690-4",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46067",
+    "fecha_ingreso": "2026-14-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12094,
@@ -3007,9 +4231,13 @@
     "cuil": "27-42872672-9",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12098,
@@ -3019,9 +4247,13 @@
     "cuil": "23-46993773-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0070371830004054763882",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12143,
@@ -3033,7 +4265,7 @@
     "tarea": "Limpieza Extra",
     "fecha_ingreso": "46068",
     "cbu": null,
-    "activo": true
+    "activo": false
   },
   {
     "id": 12144,
@@ -3045,7 +4277,7 @@
     "tarea": "Cocinero Extra",
     "fecha_ingreso": "46057",
     "cbu": null,
-    "activo": true
+    "activo": false
   },
   {
     "id": 12147,
@@ -3055,9 +4287,13 @@
     "cuil": "27-34814787-6",
     "categoria": "Categoria VI",
     "tarea": "Cocinera Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12151,
@@ -3067,9 +4303,13 @@
     "cuil": "27-47951210-3",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46095",
+    "fecha_ingreso": "2026-14-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12154,
@@ -3079,9 +4319,13 @@
     "cuil": "20-47643223-6",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0140033503502559806663",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12159,
@@ -3091,9 +4335,29 @@
     "cuil": "20-46021423-9",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110701430070110569815",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12163,
+    "legajo": 12163,
+    "apellido": "SOSA",
+    "nombre": "Gaston Ivan",
+    "cuil": "20-38949560-4",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Barman Extra",
+    "fecha_ingreso": "2026-27-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12169,
@@ -3103,9 +4367,13 @@
     "cuil": "27-46028749-4",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0720569988000002470786",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12197,
@@ -3115,9 +4383,13 @@
     "cuil": "27-41549582-5",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110050130005022536501",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12198,
@@ -3127,9 +4399,13 @@
     "cuil": "27-40016428-8",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0070180430004077650574",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12201,
@@ -3141,7 +4417,7 @@
     "tarea": "Cocinera Extra",
     "fecha_ingreso": "46086",
     "cbu": null,
-    "activo": true
+    "activo": false
   },
   {
     "id": 12229,
@@ -3151,9 +4427,13 @@
     "cuil": "27-42312839-4",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0270033520044594710013",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12243,
@@ -3163,9 +4443,13 @@
     "cuil": "27-45678796-2",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110054930005407827651",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12245,
@@ -3175,9 +4459,13 @@
     "cuil": "27-42544702-0",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110037230003734559001",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12246,
@@ -3187,9 +4475,13 @@
     "cuil": "27-47232393-3",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0070373230004029169211",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12256,
@@ -3199,9 +4491,13 @@
     "cuil": "20-47646769-2",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46087",
+    "fecha_ingreso": "2026-06-03",
     "cbu": "0140039703511472050743",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12264,
@@ -3211,9 +4507,13 @@
     "cuil": "27-43593976-2",
     "categoria": "Categoria VI",
     "tarea": "Barman Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0140061803500455529662",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12279,
@@ -3223,9 +4523,13 @@
     "cuil": "20-29611588-7",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46057",
+    "fecha_ingreso": "2026-04-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12295,
@@ -3235,9 +4539,13 @@
     "cuil": "27-31656844-6",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": "0140132103505761433779",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "ANA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12296,
@@ -3247,9 +4555,13 @@
     "cuil": "20-28899694-7",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46096",
+    "fecha_ingreso": "2026-15-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12308,
@@ -3259,9 +4571,13 @@
     "cuil": "27-47655539-1",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12315,
@@ -3271,9 +4587,13 @@
     "cuil": "20-42837784-3",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0720575088000004131768",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12349,
@@ -3283,9 +4603,13 @@
     "cuil": "27-42000906-8",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12367,
@@ -3295,9 +4619,13 @@
     "cuil": "27-44786371-0",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110037230003728839065",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12368,
@@ -3307,9 +4635,13 @@
     "cuil": "27-24979730-3",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110037230003718487483",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12370,
@@ -3319,9 +4651,13 @@
     "cuil": "27-29731973-1",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110083930008320166779",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12372,
@@ -3331,9 +4667,13 @@
     "cuil": "27-47419305-0",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46094",
+    "fecha_ingreso": "2026-13-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12394,
@@ -3343,9 +4683,45 @@
     "cuil": "27-40638551-0",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12412,
+    "legajo": 12412,
+    "apellido": "ALBORNOZ DUARTE",
+    "nombre": "Priscila Camila",
+    "cuil": "27-47515743-0",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Camarero Extra",
+    "fecha_ingreso": "2026-24-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12422,
+    "legajo": 12422,
+    "apellido": "ETCHEVERRY",
+    "nombre": "Adriana",
+    "cuil": "27-42828888-8",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Barman Extra",
+    "fecha_ingreso": "2026-27-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12463,
@@ -3355,9 +4731,13 @@
     "cuil": "27-45611215-9",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12481,
@@ -3367,9 +4747,13 @@
     "cuil": "27-47793093-5",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12492,
@@ -3379,9 +4763,13 @@
     "cuil": "24-47642743-2",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110692930069203851865",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12498,
@@ -3391,9 +4779,13 @@
     "cuil": "27-45314473-4",
     "categoria": "Categoria VI",
     "tarea": "Camarera Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140040303511866696119",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12502,
@@ -3403,9 +4795,13 @@
     "cuil": "20-46256693-0",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46081",
+    "fecha_ingreso": "2026-28-02",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12505,
@@ -3415,9 +4811,13 @@
     "cuil": "20-34766950-5",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46090",
+    "fecha_ingreso": "2026-09-03",
     "cbu": "0170313740000032166389",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12506,
@@ -3427,9 +4827,13 @@
     "cuil": "27-95645634-2",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46092",
+    "fecha_ingreso": "2026-11-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12507,
@@ -3439,9 +4843,13 @@
     "cuil": "20-47787922-6",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": "0140065603501457416530",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12508,
@@ -3451,9 +4859,13 @@
     "cuil": "20-36483296-7",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12509,
@@ -3463,9 +4875,13 @@
     "cuil": "20-30393009-5",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46098",
+    "fecha_ingreso": "2026-17-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12510,
@@ -3475,9 +4891,13 @@
     "cuil": "20-37026218-8",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46097",
+    "fecha_ingreso": "2026-16-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12511,
@@ -3487,9 +4907,13 @@
     "cuil": "20-47131697-1",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46097",
+    "fecha_ingreso": "2026-16-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12512,
@@ -3499,9 +4923,13 @@
     "cuil": "23-47565300-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46095",
+    "fecha_ingreso": "2026-14-03",
     "cbu": "´0720088588000004648086",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12513,
@@ -3511,9 +4939,13 @@
     "cuil": "23-47833550-4",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46100",
+    "fecha_ingreso": "2026-19-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12514,
@@ -3523,9 +4955,13 @@
     "cuil": "23-47065590-9",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46100",
+    "fecha_ingreso": "2026-19-03",
     "cbu": null,
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12515,
@@ -3535,9 +4971,13 @@
     "cuil": "20-47117077-2",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46101",
+    "fecha_ingreso": "2026-20-03",
     "cbu": "0140137603506054911268",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12516,
@@ -3547,9 +4987,13 @@
     "cuil": "27-34586793-2",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46101",
+    "fecha_ingreso": "2026-20-03",
     "cbu": "0140026703509751963451",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12517,
@@ -3559,9 +5003,13 @@
     "cuil": "20-47804757-7",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46101",
+    "fecha_ingreso": "2026-20-03",
     "cbu": "0720454288000002559368",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12518,
@@ -3571,9 +5019,13 @@
     "cuil": "27-44397205-1",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46101",
+    "fecha_ingreso": "2026-20-03",
     "cbu": "0140082303502959547892",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12519,
@@ -3583,9 +5035,13 @@
     "cuil": "27-40090547-4",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46101",
+    "fecha_ingreso": "2026-20-03",
     "cbu": "0270052620061026990014",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12520,
@@ -3595,9 +5051,13 @@
     "cuil": "20-38931486-3",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0140082303502960051526",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12521,
@@ -3607,9 +5067,13 @@
     "cuil": "20-95268061-8",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0720009088000002151854",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12522,
@@ -3619,9 +5083,13 @@
     "cuil": "23-42198837-4",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0140102403402571236719",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12523,
@@ -3631,9 +5099,13 @@
     "cuil": "27-42056785-0",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0140000703100057247409",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12524,
@@ -3643,9 +5115,13 @@
     "cuil": "27-40846276-8",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0140137603506056787144",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12525,
@@ -3655,9 +5131,13 @@
     "cuil": "20-48174738-5",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0070361930004079251959",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12526,
@@ -3667,9 +5147,13 @@
     "cuil": "27-37598812-2",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0110092130009223162701",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12527,
@@ -3679,9 +5163,13 @@
     "cuil": "20-47686304-0",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0140081603503271785225",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12528,
@@ -3691,9 +5179,13 @@
     "cuil": "27-46357492-3",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0140116103504857771780",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12529,
@@ -3703,9 +5195,13 @@
     "cuil": "27-23603122-0",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0170135340000031979737",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12530,
@@ -3715,9 +5211,13 @@
     "cuil": "23-23662664-4",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "0070661830004003441124",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12531,
@@ -3727,9 +5227,13 @@
     "cuil": "27-30219047-5",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46102",
+    "fecha_ingreso": "2026-21-03",
     "cbu": "'0720197088000036726204",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12532,
@@ -3739,9 +5243,13 @@
     "cuil": "20-43913320-2",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46103",
+    "fecha_ingreso": "2026-22-03",
     "cbu": "0170005340000020711991",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12533,
@@ -3751,9 +5259,13 @@
     "cuil": "27-45870886-5",
     "categoria": "Categoria I",
     "tarea": "Limpieza Extra",
-    "fecha_ingreso": "46106",
+    "fecha_ingreso": "2026-25-03",
     "cbu": "0720085488000001934254",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12534,
@@ -3763,9 +5275,13 @@
     "cuil": "20-40948884-7",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "´0070163730004006923175",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12535,
@@ -3775,9 +5291,13 @@
     "cuil": "23-36938010-9",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140082303502954358705",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12536,
@@ -3787,9 +5307,13 @@
     "cuil": "20-45812948-8",
     "categoria": "Categoria I",
     "tarea": "Bachero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110625730062514909379",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12537,
@@ -3799,9 +5323,13 @@
     "cuil": "27-47519760-2",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0140096003503752184624",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12538,
@@ -3811,9 +5339,13 @@
     "cuil": "27-48808560-9",
     "categoria": "Categoria VI",
     "tarea": "Camarero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0110054930005409716665",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   },
   {
     "id": 12539,
@@ -3825,7 +5357,7 @@
     "tarea": "Cocinera Extra",
     "fecha_ingreso": "46107",
     "cbu": "pendiente",
-    "activo": true
+    "activo": false
   },
   {
     "id": 12540,
@@ -3835,8 +5367,204 @@
     "cuil": "20-44093084-1",
     "categoria": "Categoria VI",
     "tarea": "Cocinero Extra",
-    "fecha_ingreso": "46107",
+    "fecha_ingreso": "2026-26-03",
     "cbu": "0070132330004071432129",
-    "activo": true
+    "activo": true,
+    "grupo_jerarquico": "CINTIA",
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12541,
+    "legajo": 12541,
+    "apellido": "OJEDA NOREÑA",
+    "nombre": "Mariano Adrian",
+    "cuil": "20-44770350-6",
+    "categoria": "Categoria I",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Limpieza Extra",
+    "fecha_ingreso": "2026-07-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12542,
+    "legajo": 12542,
+    "apellido": "LABALLENA",
+    "nombre": "Jesica Alejandra",
+    "cuil": "27-33930791-7",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Cocinero Extra",
+    "fecha_ingreso": "2026-09-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12543,
+    "legajo": 12543,
+    "apellido": "ROMERO",
+    "nombre": "Sabrina Tania",
+    "cuil": "27-41486170-4",
+    "categoria": "Categoria I",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Limpieza Extra",
+    "fecha_ingreso": "2026-10-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12544,
+    "legajo": 12544,
+    "apellido": "CHAYLE",
+    "nombre": "Lucas Francisco",
+    "cuil": "20-48529747-3",
+    "categoria": "Categoria I",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Limpieza Extra",
+    "fecha_ingreso": "2026-10-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12545,
+    "legajo": 12545,
+    "apellido": "MARTINEZ",
+    "nombre": "Johana Abril",
+    "cuil": "27-46740583-2",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Camarera Extra",
+    "fecha_ingreso": "2026-16-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12546,
+    "legajo": 12546,
+    "apellido": "ACOSTA",
+    "nombre": "Javier Tomas Alfredo",
+    "cuil": "20-45812722-1",
+    "categoria": "Categoria I",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Limpieza Extra",
+    "fecha_ingreso": "2026-18-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12547,
+    "legajo": 12547,
+    "apellido": "AGUIRRE",
+    "nombre": "Luis Ruben",
+    "cuil": "20-37484871-3",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Cocinero Extra",
+    "fecha_ingreso": "2026-20-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12548,
+    "legajo": 12548,
+    "apellido": "ALMADA VILLALBA",
+    "nombre": "Daiana Ayelen",
+    "cuil": "27-39275821-1",
+    "categoria": "Categoria I",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Limpieza Extra",
+    "fecha_ingreso": "2026-23-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12549,
+    "legajo": 12549,
+    "apellido": "VEIGA",
+    "nombre": "Nadia Fernanda",
+    "cuil": "23-39756640-4",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Cocinera Extra",
+    "fecha_ingreso": "2026-27-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12550,
+    "legajo": 12550,
+    "apellido": "GIMENEZ",
+    "nombre": "Francisca",
+    "cuil": "27-46498567-6",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Camarera Extra",
+    "fecha_ingreso": "2026-27-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12551,
+    "legajo": 12551,
+    "apellido": "LOPEZ BOUADJIAN",
+    "nombre": "Kala",
+    "cuil": "27-43920241-1",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Camarera Extra",
+    "fecha_ingreso": "2026-27-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
+  },
+  {
+    "id": 12552,
+    "legajo": 12552,
+    "apellido": "RAMOS",
+    "nombre": "Catalina Abril",
+    "cuil": "27-45552896-3",
+    "categoria": "Categoria VI",
+    "grupo_jerarquico": "CINTIA",
+    "tarea": "Camarera Extra",
+    "fecha_ingreso": "2026-27-04",
+    "cbu": null,
+    "activo": true,
+    "banco": null,
+    "estado_bancario": "pendiente",
+    "telefono": null
   }
 ]

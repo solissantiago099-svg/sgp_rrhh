@@ -157,7 +157,7 @@ export default function PersonasPage() {
         </div>
       </div>
 
-      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
+      <div className="rounded-2xl border border-slate-300 bg-white p-4 shadow-sm">
         <input
           type="text"
           placeholder="Buscar por legajo, apellido, nombre o CUIL..."
@@ -167,14 +167,14 @@ export default function PersonasPage() {
         />
       </div>
 
-      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+      <div className="overflow-hidden rounded-2xl border border-slate-300 bg-white shadow-sm">
         {loading ? (
           <div className="p-6 text-slate-500">Cargando personas...</div>
         ) : error ? (
           <div className="p-6 text-red-600">{error}</div>
         ) : (
           <table className="w-full text-sm">
-            <thead className="bg-slate-50 text-slate-600">
+            <thead className="bg-slate-100 text-xs uppercase tracking-wide text-slate-600">
               <tr>
                 <th className="text-left px-4 py-3">Legajo</th>
                 <th className="text-left px-4 py-3">Apellido</th>
@@ -186,9 +186,9 @@ export default function PersonasPage() {
                 <th className="text-left px-4 py-3">Estado</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="divide-y divide-slate-200">
               {filteredPersonas.map((persona) => (
-                <tr key={persona.id} className="border-t border-slate-200">
+                <tr key={persona.id} className="transition hover:bg-slate-50">
                   <td className="px-4 py-3">{persona.legajo}</td>
                   <td className="px-4 py-3">{persona.apellido || "-"}</td>
                   <td className="px-4 py-3">{persona.nombre || "-"}</td>
