@@ -462,12 +462,44 @@ const getEventoById = async (id) => {
 
 const confirmPosicionamientoEvento = async (id) => {
   await getEventoById(id);
+
+  const dotaciones = await dotacionRepository.getByEventoId(id);
+  const totalRequerido = dotaciones.reduce(
+    (total, dotacion) => total + dotacion.cantidad_requerida,
+    0
+  );
+  const totalFaltante = dotaciones.reduce(
+    (total, dotacion) => total + dotacion.cantidad_faltante,
+    0
+  );
+
+  if (dotaciones.length === 0 || totalRequerido === 0) {
+    const error = new Error(
+      "No se puede confirmar un posicionamiento sin dotaciones cargadas"
+    );
+    error.status = 400;
+    throw error;
+  }
+
+  if (totalFaltante > 0) {
+    const error = new Error(
+      "No se puede confirmar el posicionamiento hasta completar todos los slots"
+    );
+    error.status = 400;
+    throw error;
+  }
+
   return eventosRepository.updateEstado(id, "convocatoria");
 };
 
 const iniciarAsistenciaEvento = async (id) => {
   await getEventoById(id);
   return eventosRepository.updateEstado(id, "asistencia");
+};
+
+const reabrirPosicionamientoEvento = async (id) => {
+  await getEventoById(id);
+  return eventosRepository.updateEstado(id, "pendiente");
 };
 
 const createEvento = async (data, client = pool) => {
@@ -567,6 +599,7 @@ module.exports = {
   getEventoById,
   confirmPosicionamientoEvento,
   iniciarAsistenciaEvento,
+  reabrirPosicionamientoEvento,
   createEvento,
   importComanda,
 };

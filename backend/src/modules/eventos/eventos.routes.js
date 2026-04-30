@@ -6,6 +6,7 @@ router.get("/", eventosController.getAllEventos);
 router.post("/importar", eventosController.importComanda);
 router.get("/:id", eventosController.getEventoById);
 router.patch("/:id/confirmar-posicionamiento", eventosController.confirmPosicionamientoEvento);
+router.patch("/:id/reabrir-posicionamiento", eventosController.reabrirPosicionamientoEvento);
 router.patch("/:id/iniciar-asistencia", eventosController.iniciarAsistenciaEvento);
 router.post("/", eventosController.createEvento);
 

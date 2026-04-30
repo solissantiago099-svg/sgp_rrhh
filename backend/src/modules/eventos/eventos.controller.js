@@ -47,6 +47,16 @@ const iniciarAsistenciaEvento = async (req, res, next) => {
   }
 };
 
+const reabrirPosicionamientoEvento = async (req, res, next) => {
+  try {
+    const eventoActualizado =
+      await eventosService.reabrirPosicionamientoEvento(req.params.id);
+    res.json(eventoActualizado);
+  } catch (error) {
+    next(error);
+  }
+};
+
 const importComanda = async (req, res, next) => {
   try {
     const resultado = await eventosService.importComanda(req.body);
@@ -61,6 +71,7 @@ module.exports = {
   getEventoById,
   confirmPosicionamientoEvento,
   iniciarAsistenciaEvento,
+  reabrirPosicionamientoEvento,
   createEvento,
   importComanda,
 };

@@ -241,6 +241,9 @@ export default function PosicionamientoEventoPage() {
     );
   }, [dotacion]);
 
+  const posicionamientoCompleto =
+    dotacion.length > 0 && totalRequeridos > 0 && totalCubiertos === totalRequeridos;
+
   const modalDotacion = useMemo(() => {
     if (modalDotacionId === null) return null;
     return dotacion.find((item) => item.id === modalDotacionId) || null;
@@ -549,6 +552,11 @@ export default function PosicionamientoEventoPage() {
     item.cantidad - getCubiertos(item);
 
   const handleConfirmPosicionamiento = async () => {
+    if (!posicionamientoCompleto) {
+      alert("Completá todos los slots antes de confirmar el posicionamiento.");
+      return;
+    }
+
     setSaving(true);
 
     try {
@@ -597,9 +605,14 @@ export default function PosicionamientoEventoPage() {
         <button
           type="button"
           onClick={handleConfirmPosicionamiento}
-          disabled={saving}
+          disabled={saving || !posicionamientoCompleto}
+          title={
+            posicionamientoCompleto
+              ? "Confirmar posicionamiento"
+              : "Completá todos los slots para confirmar"
+          }
           className={`rounded-xl px-5 py-3 text-sm font-semibold text-white shadow-sm transition ${
-            saving
+            saving || !posicionamientoCompleto
               ? "cursor-not-allowed bg-slate-400"
               : "bg-emerald-600 hover:bg-emerald-500"
           }`}
