@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { useState, useEffect } from "react";
 
 const menuItems = [
   { label: "Inicio", href: "/dashboard", icon: "🏠" },
@@ -10,13 +10,64 @@ const menuItems = [
   { label: "Personal", href: "/personas", icon: "👥" },
 ];
 
+interface User {
+  id: number;
+  username: string;
+  nombre: string;
+  apellido: string;
+  rol: string;
+}
+
 export default function SistemaLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
+  const router = useRouter();
   const [collapsed, setCollapsed] = useState(true);
+  const [user, setUser] = useState<User | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Validar que exista token
+    const token = localStorage.getItem("token");
+    const userStr = localStorage.getItem("user");
+
+    if (!token) {
+      router.push("/login");
+      return;
+    }
+
+    if (userStr) {
+      try {
+        setUser(JSON.parse(userStr));
+      } catch {
+        router.push("/login");
+        return;
+      }
+    }
+
+    setLoading(false);
+  }, [router]);
+
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    localStorage.removeItem("user");
+    router.push("/login");
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-slate-100 flex items-center justify-center">
+        <div className="text-slate-600">Cargando...</div>
+      </div>
+    );
+  }
+
+  if (!user) {
+    return null;
+  }
 
   return (
     <div className="min-h-screen bg-slate-100 flex">
@@ -70,11 +121,16 @@ export default function SistemaLayout({
 
           <div className="flex items-center gap-3">
             <div className="text-right">
-              <p className="text-sm font-medium text-slate-900">Admin</p>
-              <p className="text-xs text-slate-500">Administrador</p>
+              <p className="text-sm font-medium text-slate-900">
+                {user.nombre} {user.apellido}
+              </p>
+              <p className="text-xs text-slate-500 capitalize">{user.rol}</p>
             </div>
 
-            <button className="rounded-xl border border-slate-300 px-4 py-2 text-sm hover:bg-slate-100">
+            <button
+              onClick={handleLogout}
+              className="rounded-xl border border-slate-300 px-4 py-2 text-sm hover:bg-red-50 hover:border-red-300 hover:text-red-700 transition"
+            >
               Salir
             </button>
           </div>
