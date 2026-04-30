@@ -41,13 +41,6 @@ function getEventoRoute(evento: Evento) {
   return `/eventos/${evento.id}/posicionamiento`;
 }
 
-function getGreeting() {
-  const hour = new Date().getHours();
-  if (hour < 12) return "Buen día";
-  if (hour < 19) return "Buenas tardes";
-  return "Buenas noches";
-}
-
 export default function DashboardPage() {
   const [eventos, setEventos] = useState<Evento[]>([]);
   const [personas, setPersonas] = useState<Persona[]>([]);
@@ -112,26 +105,23 @@ export default function DashboardPage() {
       .slice(0, 5);
   }, [eventos]);
 
+  const fechaInicio = new Intl.DateTimeFormat("es-AR", {
+    weekday: "long",
+    day: "2-digit",
+    month: "long",
+  }).format(new Date());
+
   return (
     <div className="space-y-6">
       <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
         <div className="grid gap-0 lg:grid-cols-[1.4fr_0.9fr]">
           <div className="p-6 sm:p-8">
             <p className="text-sm font-medium text-sky-700">
-              {new Intl.DateTimeFormat("es-AR", {
-                weekday: "long",
-                day: "2-digit",
-                month: "long",
-              }).format(new Date())}
+              Inicio
             </p>
             <h1 className="mt-3 text-3xl font-bold tracking-normal text-slate-950 sm:text-4xl">
-              {getGreeting()}, bienvenido a SGP RRHH
+              {fechaInicio.charAt(0).toUpperCase() + fechaInicio.slice(1)}
             </h1>
-            <p className="mt-3 max-w-2xl text-base leading-7 text-slate-600">
-              Un lugar para ordenar la operación diaria: importar comandas,
-              completar posicionamientos, convocar personal y mantener el
-              maestro actualizado.
-            </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
               <Link
@@ -162,6 +152,18 @@ export default function DashboardPage() {
                 <p className="text-xs font-medium text-slate-500">Activos</p>
                 <p className="mt-2 text-3xl font-bold text-emerald-700">
                   {loading ? "-" : stats.activos}
+                </p>
+              </div>
+              <div className="rounded-xl border border-slate-200 bg-white p-4">
+                <p className="text-xs font-medium text-slate-500">Inactivos</p>
+                <p className="mt-2 text-3xl font-bold text-slate-700">
+                  {loading ? "-" : stats.inactivos}
+                </p>
+              </div>
+              <div className="rounded-xl border border-slate-200 bg-white p-4">
+                <p className="text-xs font-medium text-slate-500">Total personal</p>
+                <p className="mt-2 text-3xl font-bold text-slate-950">
+                  {loading ? "-" : personas.length}
                 </p>
               </div>
               <div className="rounded-xl border border-slate-200 bg-white p-4">
