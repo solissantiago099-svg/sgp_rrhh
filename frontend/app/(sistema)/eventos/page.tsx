@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, type ChangeEvent } from "react";
+import { useEffect, useRef, useState, type ChangeEvent } from "react";
 import { useRouter } from "next/navigation";
 import { fetchJson } from "@/app/utils/api";
 
@@ -22,17 +22,9 @@ function formatDate(value: string) {
 }
 
 function formatEstado(value: string) {
-  if (value === "pendiente") return "Posicionamiento";
-  if (value === "convocatoria") return "Convocatoria";
-  if (value === "asistencia") return "Asistencia";
-  return value || "-";
-}
-
-function getEstadoClass(value: string) {
-  if (value === "pendiente") return "bg-amber-50 text-amber-700 ring-amber-200";
-  if (value === "convocatoria") return "bg-sky-50 text-sky-700 ring-sky-200";
-  if (value === "asistencia") return "bg-emerald-50 text-emerald-700 ring-emerald-200";
-  return "bg-slate-100 text-slate-700 ring-slate-200";
+  if (!value) return "-";
+  if (value === "asistencia") return "Convocatoria";
+  return value.charAt(0).toUpperCase() + value.slice(1);
 }
 
 function getEventoRoute(evento: Evento) {
@@ -79,15 +71,6 @@ export default function EventosPage() {
     total: number;
   } | null>(null);
   const [error, setError] = useState<string | null>(null);
-
-  const stats = useMemo(() => {
-    const pendientes = eventos.filter((evento) => evento.estado === "pendiente").length;
-    const convocatorias = eventos.filter(
-      (evento) => evento.estado === "convocatoria" || evento.estado === "asistencia"
-    ).length;
-
-    return { pendientes, convocatorias };
-  }, [eventos]);
 
   const loadEventos = async () => {
     setLoading(true);
@@ -172,28 +155,15 @@ export default function EventosPage() {
 
   return (
     <div className="space-y-6">
-      <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+      <div className="flex items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold text-slate-950">Eventos</h1>
-          <p className="mt-1 text-slate-500">
+          <h1 className="text-3xl font-bold text-slate-900">Eventos</h1>
+          <p className="text-slate-500 mt-1">
             Eventos generados desde comandas importadas.
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-3">
-          <div className="rounded-xl border border-slate-300 bg-white px-4 py-2.5 shadow-sm">
-            <p className="text-xs font-medium text-slate-500">A posicionar</p>
-            <p className="text-lg font-bold text-amber-700">
-              {loading ? "-" : stats.pendientes}
-            </p>
-          </div>
-          <div className="rounded-xl border border-slate-300 bg-white px-4 py-2.5 shadow-sm">
-            <p className="text-xs font-medium text-slate-500">Convocatoria</p>
-            <p className="text-lg font-bold text-sky-700">
-              {loading ? "-" : stats.convocatorias}
-            </p>
-          </div>
-
+        <div>
           <input
             ref={inputRef}
             type="file"
@@ -207,10 +177,10 @@ export default function EventosPage() {
             type="button"
             onClick={handleImportClick}
             disabled={importing}
-            className={`rounded-xl px-5 py-3 text-sm font-semibold text-white shadow-sm transition ${
+            className={`rounded-xl px-5 py-3 text-white ${
               importing
-                ? "cursor-not-allowed bg-slate-400"
-                : "bg-[#111111] hover:bg-[#242424]"
+                ? "bg-slate-400 cursor-not-allowed"
+                : "bg-slate-900 hover:bg-slate-800"
             }`}
           >
             {importing && importProgress
@@ -220,14 +190,7 @@ export default function EventosPage() {
         </div>
       </div>
 
-      <div className="overflow-hidden rounded-2xl border border-slate-300 bg-white shadow-sm">
-        <div className="border-b border-slate-200 px-5 py-4">
-          <p className="text-sm font-semibold text-slate-950">Listado de eventos</p>
-          <p className="mt-1 text-sm text-slate-500">
-            Revisá el estado y continuá cada evento desde su acción principal.
-          </p>
-        </div>
-
+      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
         {loading ? (
           <div className="p-6 text-slate-500">Cargando eventos...</div>
         ) : error ? (
@@ -237,62 +200,43 @@ export default function EventosPage() {
             Todavía no hay eventos importados.
           </div>
         ) : (
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-[820px] text-sm">
-              <thead className="bg-slate-100 text-xs uppercase tracking-wide text-slate-600">
-                <tr>
-                  <th className="px-5 py-3 text-left">Fecha</th>
-                  <th className="px-5 py-3 text-left">Evento</th>
-                  <th className="px-5 py-3 text-left">Salón</th>
-                  <th className="px-5 py-3 text-left">Cliente</th>
-                  <th className="px-5 py-3 text-left">Estado</th>
-                  <th className="px-5 py-3 text-right">Acción</th>
-                </tr>
-              </thead>
+          <table className="w-full text-sm">
+            <thead className="bg-slate-50 text-slate-600">
+              <tr>
+                <th className="text-left px-4 py-3">Fecha</th>
+                <th className="text-left px-4 py-3">Evento</th>
+                <th className="text-left px-4 py-3">Salón</th>
+                <th className="text-left px-4 py-3">Cliente</th>
+                <th className="text-left px-4 py-3">Estado</th>
+                <th className="text-left px-4 py-3">Acción</th>
+              </tr>
+            </thead>
 
-              <tbody className="divide-y divide-slate-200">
-                {eventos.map((evento) => (
-                  <tr key={evento.id} className="transition hover:bg-slate-50">
-                    <td className="px-5 py-4 font-medium text-slate-900">
-                      {formatDate(evento.fecha_evento)}
-                    </td>
-                    <td className="px-5 py-4">
-                      <p className="font-semibold text-slate-950">
-                        {evento.nombre_evento}
-                      </p>
-                      <p className="mt-1 text-xs text-slate-500">
-                        Evento #{evento.id}
-                      </p>
-                    </td>
-                    <td className="px-5 py-4 text-slate-700">{evento.salon}</td>
-                    <td className="px-5 py-4 text-slate-700">
-                      {evento.cliente_evento}
-                    </td>
-                    <td className="px-5 py-4">
-                      <span
-                        className={`inline-flex rounded-full px-3 py-1 text-xs font-semibold ring-1 ${getEstadoClass(
-                          evento.estado
-                        )}`}
-                      >
-                        {formatEstado(evento.estado)}
-                      </span>
-                    </td>
-                    <td className="px-5 py-4 text-right">
-                      <button
-                        type="button"
-                        onClick={() => router.push(getEventoRoute(evento))}
-                        className="rounded-lg bg-[#111111] px-3 py-2 text-xs font-semibold text-white transition hover:bg-[#242424]"
-                      >
-                        {evento.estado === "convocatoria" || evento.estado === "asistencia"
+            <tbody>
+              {eventos.map((evento) => (
+                <tr key={evento.id} className="border-t border-slate-200">
+                  <td className="px-4 py-3">{formatDate(evento.fecha_evento)}</td>
+                  <td className="px-4 py-3 font-medium text-slate-900">
+                    {evento.nombre_evento}
+                  </td>
+                  <td className="px-4 py-3">{evento.salon}</td>
+                  <td className="px-4 py-3">{evento.cliente_evento}</td>
+                  <td className="px-4 py-3">{formatEstado(evento.estado)}</td>
+                  <td className="px-4 py-3">
+                    <button
+                      type="button"
+                      onClick={() => router.push(getEventoRoute(evento))}
+                      className="rounded-lg bg-slate-900 text-white px-3 py-2 text-xs hover:bg-slate-800"
+                    >
+                      {evento.estado === "convocatoria" || evento.estado === "asistencia"
                           ? "Convocatoria"
                           : "Posicionar"}
-                      </button>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+                    </button>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         )}
       </div>
     </div>

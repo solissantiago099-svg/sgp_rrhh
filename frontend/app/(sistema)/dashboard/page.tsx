@@ -113,7 +113,7 @@ export default function DashboardPage() {
 
   return (
     <div className="space-y-6">
-      <section className="overflow-hidden rounded-2xl border border-slate-300 bg-white shadow-sm">
+      <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
         <div className="grid min-h-[260px] gap-0 lg:grid-cols-[1.45fr_0.85fr]">
           <div className="flex flex-col justify-center p-6 sm:p-8">
             <div>
@@ -126,7 +126,7 @@ export default function DashboardPage() {
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
                 href="/eventos"
-                className="rounded-xl bg-[#111111] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#242424]"
+                className="rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
               >
                 Gestionar eventos
               </Link>
@@ -142,25 +142,25 @@ export default function DashboardPage() {
           <div className="flex flex-col justify-center border-t border-slate-200 bg-slate-50 p-6 lg:border-l lg:border-t-0">
             <p className="text-sm font-semibold text-slate-900">Estado general</p>
             <div className="mt-4 grid grid-cols-2 gap-3">
-              <div className="rounded-xl border border-slate-300 bg-white p-4">
+              <div className="rounded-xl border border-slate-200 bg-white p-4">
                 <p className="text-xs font-medium text-slate-500">Eventos</p>
                 <p className="mt-2 text-3xl font-bold text-slate-950">
                   {loading ? "-" : stats.eventos}
                 </p>
               </div>
-              <div className="rounded-xl border border-slate-300 bg-white p-4">
+              <div className="rounded-xl border border-slate-200 bg-white p-4">
                 <p className="text-xs font-medium text-slate-500">Activos</p>
                 <p className="mt-2 text-3xl font-bold text-emerald-700">
                   {loading ? "-" : stats.activos}
                 </p>
               </div>
-              <div className="rounded-xl border border-slate-300 bg-white p-4">
+              <div className="rounded-xl border border-slate-200 bg-white p-4">
                 <p className="text-xs font-medium text-slate-500">A posicionar</p>
                 <p className="mt-2 text-3xl font-bold text-amber-700">
                   {loading ? "-" : stats.pendientes}
                 </p>
               </div>
-              <div className="rounded-xl border border-slate-300 bg-white p-4">
+              <div className="rounded-xl border border-slate-200 bg-white p-4">
                 <p className="text-xs font-medium text-slate-500">Convocatoria</p>
                 <p className="mt-2 text-3xl font-bold text-sky-700">
                   {loading ? "-" : stats.convocatorias}
@@ -178,7 +178,7 @@ export default function DashboardPage() {
       ) : null}
 
       <section className="grid gap-5 xl:grid-cols-[1.2fr_0.8fr]">
-        <div className="rounded-2xl border border-slate-300 bg-white shadow-sm">
+        <div className="rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div className="flex items-center justify-between gap-3 border-b border-slate-200 px-5 py-4">
             <div>
               <h2 className="text-lg font-semibold text-slate-950">
@@ -236,7 +236,7 @@ export default function DashboardPage() {
         </div>
 
         <div className="space-y-5">
-          <div className="rounded-2xl border border-slate-300 bg-white p-5 shadow-sm">
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
             <h2 className="text-lg font-semibold text-slate-950">
               Accesos rápidos
             </h2>
@@ -262,7 +262,7 @@ export default function DashboardPage() {
             </div>
           </div>
 
-          <div className="rounded-2xl border border-slate-300 bg-white p-5 shadow-sm">
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
             <h2 className="text-lg font-semibold text-slate-950">
               Maestro de personal
             </h2>

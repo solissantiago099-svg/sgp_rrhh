@@ -86,7 +86,7 @@ export default function EventoDetallePage() {
               <button
                 type="button"
                 onClick={() => router.push(getEventoRoute(evento))}
-                className="rounded-xl bg-[#111111] px-5 py-3 text-white hover:bg-[#242424]"
+                className="rounded-xl bg-slate-900 text-white px-5 py-3 hover:bg-slate-800"
               >
                 {evento.estado === "convocatoria" || evento.estado === "asistencia"
                     ? "Ir a convocatoria"

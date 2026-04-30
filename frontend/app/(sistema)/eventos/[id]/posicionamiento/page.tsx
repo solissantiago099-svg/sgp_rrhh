@@ -976,7 +976,7 @@ export default function PosicionamientoEventoPage() {
               className={`rounded-xl px-4 py-2.5 text-sm font-semibold text-white transition ${
                 saving || selectedPersonaIds.length === 0
                   ? "cursor-not-allowed bg-slate-400"
-                  : "bg-[#111111] hover:bg-[#242424]"
+                  : "bg-slate-900 hover:bg-slate-800"
               }`}
             >
               {saving ? "Guardando..." : "Confirmar seleccion"}

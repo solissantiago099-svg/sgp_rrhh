@@ -870,7 +870,7 @@ export default function ConvocatoriaEventoPage() {
             <button
               type="button"
               onClick={() => setActionsOpen((current) => !current)}
-              className="rounded-xl bg-[#111111] px-4 py-3 text-sm font-medium text-white transition hover:bg-[#242424]"
+              className="rounded-xl bg-slate-900 px-4 py-3 text-sm font-medium text-white transition hover:bg-slate-800"
             >
               Acciones
             </button>
@@ -969,7 +969,7 @@ export default function ConvocatoriaEventoPage() {
             <button
               type="button"
               onClick={() => router.push(`/eventos/${eventoId}/posicionamiento`)}
-              className="mt-5 rounded-xl bg-[#111111] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#242424]"
+              className="mt-5 rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
             >
               Ir a posicionamiento
             </button>
@@ -1223,7 +1223,7 @@ export default function ConvocatoriaEventoPage() {
                             className={`rounded-xl px-4 py-2.5 text-sm font-semibold transition ${
                               disabled
                                 ? "cursor-not-allowed bg-slate-200 text-slate-500"
-                                : "bg-[#111111] text-white hover:bg-[#242424]"
+                                : "bg-slate-900 text-white hover:bg-slate-800"
                             }`}
                           >
                             {isCurrent
