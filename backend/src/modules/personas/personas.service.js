@@ -7,6 +7,13 @@ const normalizeText = (value) => {
   return text === "" ? null : text;
 };
 
+const normalizeCbu = (value) => {
+  const text = normalizeText(value);
+  if (!text) return null;
+
+  return text.replace(/^[`'´]+/, "").trim() || null;
+};
+
 const normalizeBoolean = (value, defaultValue = true) => {
   if (value === undefined || value === null) return defaultValue;
   return Boolean(value);
@@ -92,7 +99,8 @@ const buildPersonaFromMaestroRow = (row, index) => {
     ]),
     tarea: getValue(row, ["tarea habitual", "tarea"]),
     fecha_ingreso: toIsoDate(getValue(row, ["fecha de ingreso", "ingreso"])),
-    cbu: null,
+    cbu: normalizeCbu(getValue(row, ["cbu"])),
+    nombre_operativo: getValue(row, ["nombre operativo"]),
     activo: true,
   };
 };
@@ -114,17 +122,23 @@ const mergeImportedPersonas = (currentPersonas, importedPersonas) => {
       currentByCuil.get(String(importedPersona.cuil)) ||
       null;
 
+    const cbu = importedPersona.cbu ?? current?.cbu ?? null;
+    const banco = current?.banco ?? null;
+    const nombreOperativo =
+      importedPersona.nombre_operativo ?? current?.nombre_operativo ?? null;
+
     return {
       ...current,
       ...importedPersona,
       id: current?.id ?? importedPersona.id,
-      cbu: current?.cbu ?? null,
-      banco: current?.banco ?? null,
+      cbu,
+      banco,
+      nombre_operativo: nombreOperativo,
       estado_bancario:
         current?.estado_bancario ??
         buildEstadoBancario({
-          cbu: current?.cbu,
-          banco: current?.banco,
+          cbu,
+          banco,
           estado_bancario: current?.estado_bancario,
         }),
       telefono: current?.telefono ?? null,
@@ -209,7 +223,7 @@ const createPersona = async (data) => {
     throw error;
   }
 
-  const cbu = normalizeText(data.cbu);
+  const cbu = normalizeCbu(data.cbu);
   const banco = normalizeText(data.banco);
 
   const nuevaPersona = {
@@ -224,6 +238,7 @@ const createPersona = async (data) => {
     grupo_jerarquico: normalizeText(data.grupo_jerarquico),
     tarea_habitual: normalizeText(data.tarea_habitual),
     cbu,
+    nombre_operativo: normalizeText(data.nombre_operativo),
     banco,
     estado_bancario: buildEstadoBancario({
       cbu,

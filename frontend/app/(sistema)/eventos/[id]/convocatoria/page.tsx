@@ -12,6 +12,8 @@ type Persona = {
   cuil: string | null;
   categoria: string | null;
   tarea: string | null;
+  nombre_operativo?: string | null;
+  tipo_personal?: "eventual" | "fijo";
   activo: boolean;
 };
 
@@ -112,6 +114,19 @@ function escapeHtml(value: string | number | null | undefined) {
 function buildPersonaName(persona: Persona | null) {
   if (!persona) return "";
   return `${persona.apellido || ""} ${persona.nombre || ""}`.trim();
+}
+
+function buildPersonaPaymentName(persona: Persona | null) {
+  if (!persona) return "";
+  return persona.nombre_operativo?.trim() || buildPersonaName(persona);
+}
+
+function isPersonaFija(persona: Persona | null) {
+  if (!persona) return false;
+  return (
+    persona.tipo_personal === "fijo" ||
+    normalizeText(persona.categoria || "") === "personal fijo"
+  );
 }
 
 function getPlanillaCliente(evento: Evento | null) {
@@ -742,9 +757,14 @@ export default function ConvocatoriaEventoPage() {
       const horasPago = getPaymentHours(dotacion);
       const valorHora = getPuestoValor(dotacion.puesto);
 
-      return Array.from({ length: dotacion.cantidad_requerida }, (_, slotIndex) => {
+      return Array.from({ length: dotacion.cantidad_requerida }).flatMap((_, slotIndex) => {
         const posicionamiento = posicionamientosBySlot.get(`${dotacion.id}-${slotIndex}`);
         const persona = posicionamiento?.persona || null;
+
+        if (isPersonaFija(persona)) {
+          return [];
+        }
+
         const pago =
           persona && horasPago !== null && valorHora > 0
             ? Math.round(valorHora * horasPago)
@@ -754,7 +774,7 @@ export default function ConvocatoriaEventoPage() {
           totalPago += pago;
         }
 
-        return `
+        return [`
           <tr>
             <td class="date">${escapeHtml(evento ? formatDate(evento.fecha_evento) : "")}</td>
             <td class="event">${escapeHtml(evento?.cliente_evento || evento?.nombre_evento || "")}</td>
@@ -762,12 +782,12 @@ export default function ConvocatoriaEventoPage() {
             <td class="centered">${escapeHtml(horasPago ?? "")}</td>
             <td class="centered">${escapeHtml(dotacion.hora_ingreso || "")}</td>
             <td class="centered">${escapeHtml(dotacion.hora_egreso || "")}</td>
-            <td class="name">${escapeHtml(buildPersonaName(persona))}</td>
+            <td class="name">${escapeHtml(buildPersonaPaymentName(persona))}</td>
             <td class="provider">${escapeHtml(proveedor)}</td>
             <td class="client">${escapeHtml(clientePlanilla)}</td>
             <td class="payment">${pago === null ? "-" : `$ ${escapeHtml(formatMoney(pago))}`}</td>
           </tr>
-        `;
+        `];
       });
     });
 
@@ -817,7 +837,7 @@ export default function ConvocatoriaEventoPage() {
                 <th>Jornada</th>
                 <th>Hr Ingreso</th>
                 <th>Hr Egreso</th>
-                <th>Apellido y nombre</th>
+                <th>Nombre operativo</th>
                 <th>Proveedor</th>
                 <th>Cliente</th>
                 <th>Pago</th>
