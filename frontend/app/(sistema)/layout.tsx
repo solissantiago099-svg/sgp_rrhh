@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 
 const menuItems = [
   { label: "Inicio", href: "/dashboard", icon: "🏠" },
@@ -18,6 +18,19 @@ interface User {
   rol: string;
 }
 
+const subscribeToAuthStorage = (callback: () => void) => {
+  window.addEventListener("storage", callback);
+  return () => window.removeEventListener("storage", callback);
+};
+
+const getAuthSnapshot = () => {
+  const token = localStorage.getItem("token");
+  const user = localStorage.getItem("user");
+  return token && user ? user : "";
+};
+
+const getServerAuthSnapshot = () => undefined;
+
 export default function SistemaLayout({
   children,
 }: {
@@ -26,26 +39,30 @@ export default function SistemaLayout({
   const pathname = usePathname();
   const router = useRouter();
   const [collapsed, setCollapsed] = useState(true);
-  const [user] = useState<User | null>(() => {
-    if (typeof window === "undefined") return null;
-
-    const userStr = localStorage.getItem("user");
-    if (!userStr) return null;
+  const authSnapshot = useSyncExternalStore(
+    subscribeToAuthStorage,
+    getAuthSnapshot,
+    getServerAuthSnapshot
+  );
+  const user = useMemo(() => {
+    if (!authSnapshot) return null;
 
     try {
-      return JSON.parse(userStr) as User;
+      return JSON.parse(authSnapshot) as User;
     } catch {
       return null;
     }
-  });
+  }, [authSnapshot]);
 
   useEffect(() => {
-    const token = localStorage.getItem("token");
+    if (authSnapshot === undefined) return;
 
-    if (!token || !user) {
+    if (!authSnapshot || !user) {
+      localStorage.removeItem("token");
+      localStorage.removeItem("user");
       router.push("/login");
     }
-  }, [router, user]);
+  }, [authSnapshot, router, user]);
 
   const handleLogout = () => {
     localStorage.removeItem("token");
@@ -53,16 +70,12 @@ export default function SistemaLayout({
     router.push("/login");
   };
 
-  if (typeof window === "undefined") {
+  if (authSnapshot === undefined || !user) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-slate-100">
         <div className="text-slate-600">Cargando...</div>
       </div>
     );
-  }
-
-  if (!user) {
-    return null;
   }
 
   return (

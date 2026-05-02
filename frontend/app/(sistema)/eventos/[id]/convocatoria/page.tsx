@@ -121,6 +121,51 @@ function buildPersonaPaymentName(persona: Persona | null) {
   return persona.nombre_operativo?.trim() || buildPersonaName(persona);
 }
 
+const PUESTO_PAGO_LABELS: Record<string, string> = {
+  ayudante: "Ayudante",
+  bachero: "Ayudante",
+  bachera: "Ayudante",
+  cocinero: "Cocinero",
+  cocinera: "Cocinero",
+  cabecera: "Cabecera",
+  camarero: "Camarero",
+  camarera: "Camarero",
+  camarero_de_armado: "Camarero de armado",
+  camarera_de_armado: "Camarero de armado",
+  camareros_armado: "Camarero de armado",
+  camareros_de_armado: "Camarero de armado",
+  guardarropa: "Camarero",
+  guardarropas: "Camarero",
+  capitan_de_bacha: "Capitan de ayudantes",
+  capitan_bacha: "Capitan de ayudantes",
+  capitan_de_ayudantes: "Capitan de ayudantes",
+  capitan_de_cocina: "Capitan de cocina",
+  capitan_cocina: "Capitan de cocina",
+  capitan_de_armado: "Capitan de armado",
+  capitan_armado: "Capitan de armado",
+  capitan_de_salon: "Capitan de salon",
+  capitan_salon: "Capitan de salon",
+  runner: "Runner",
+  bartender: "Bartender",
+  jefe_de_cocina: "Jefe de producto",
+  jefe_de_producto: "Jefe de producto",
+  maitre: "Maitre",
+};
+
+function buildPaymentPuesto(puesto: string) {
+  const cleanPuesto = puesto
+    .replace(
+      /\s*-?\s*(?:1er|1ro|1|primer|2do|2|segundo|3er|3|tercer)\s+turno$/i,
+      ""
+    )
+    .replace(/\s*-?\s*cierre$/i, "")
+    .replace(/\s+extra$/i, "")
+    .trim();
+  const key = normalizePuestoKey(cleanPuesto);
+
+  return PUESTO_PAGO_LABELS[key] || cleanPuesto;
+}
+
 function isPersonaFija(persona: Persona | null) {
   if (!persona) return false;
   return (
@@ -778,7 +823,7 @@ export default function ConvocatoriaEventoPage() {
           <tr>
             <td class="date">${escapeHtml(evento ? formatDate(evento.fecha_evento) : "")}</td>
             <td class="event">${escapeHtml(evento?.cliente_evento || evento?.nombre_evento || "")}</td>
-            <td class="puesto">${escapeHtml(dotacion.puesto)}</td>
+            <td class="puesto">${escapeHtml(buildPaymentPuesto(dotacion.puesto))}</td>
             <td class="centered">${escapeHtml(horasPago ?? "")}</td>
             <td class="centered">${escapeHtml(dotacion.hora_ingreso || "")}</td>
             <td class="centered">${escapeHtml(dotacion.hora_egreso || "")}</td>
