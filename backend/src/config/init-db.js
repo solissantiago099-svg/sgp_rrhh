@@ -45,6 +45,22 @@ const schemaStatements = [
     );
   `,
   `
+    CREATE TABLE IF NOT EXISTS personas (
+      id INTEGER PRIMARY KEY,
+      data JSONB NOT NULL,
+      created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+      updated_at TIMESTAMP NOT NULL DEFAULT NOW()
+    );
+  `,
+  `
+    CREATE INDEX IF NOT EXISTS idx_personas_legajo
+    ON personas ((data->>'legajo'));
+  `,
+  `
+    CREATE INDEX IF NOT EXISTS idx_personas_cuil
+    ON personas ((data->>'cuil'));
+  `,
+  `
     ALTER TABLE posicionamientos
     ADD COLUMN IF NOT EXISTS confirmado BOOLEAN NOT NULL DEFAULT FALSE;
   `,
