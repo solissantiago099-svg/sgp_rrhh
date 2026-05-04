@@ -99,8 +99,6 @@ const buildPersonaFromMaestroRow = (row, index) => {
     ]),
     tarea: getValue(row, ["tarea habitual", "tarea"]),
     fecha_ingreso: toIsoDate(getValue(row, ["fecha de ingreso", "ingreso"])),
-    cbu: normalizeCbu(getValue(row, ["cbu"])),
-    nombre_operativo: getValue(row, ["nombre operativo"]),
     activo: true,
   };
 };
@@ -122,10 +120,9 @@ const mergeImportedPersonas = (currentPersonas, importedPersonas) => {
       currentByCuil.get(String(importedPersona.cuil)) ||
       null;
 
-    const cbu = importedPersona.cbu ?? current?.cbu ?? null;
+    const cbu = current?.cbu ?? null;
     const banco = current?.banco ?? null;
-    const nombreOperativo =
-      importedPersona.nombre_operativo ?? current?.nombre_operativo ?? null;
+    const nombreOperativo = current?.nombre_operativo ?? null;
 
     return {
       ...current,

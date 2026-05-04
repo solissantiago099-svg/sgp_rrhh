@@ -3,7 +3,6 @@ const path = require("path");
 const XLSX = require("xlsx");
 
 const archivoBase = path.join(__dirname, "../data/maestro.xlsx");
-const archivoCBU = path.join(__dirname, "../data/cbu.xlsx");
 const outputPath = path.join(__dirname, "../data/personas.json");
 
 const clean = (value) => {
@@ -11,8 +10,6 @@ const clean = (value) => {
   const text = String(value).trim();
   return text === "" ? null : text;
 };
-
-const cleanCbu = (value) => clean(value)?.replace(/^[`'´]+/, "").trim() || null;
 
 const normalizeHeader = (value) =>
   clean(value)
@@ -49,11 +46,22 @@ const leerExcel = (ruta) => {
   });
 };
 
-const toPersona = (row, index, extra = {}) => {
+const leerPersonasExistentes = () => {
+  if (!fs.existsSync(outputPath)) return [];
+
+  try {
+    const data = JSON.parse(fs.readFileSync(outputPath, "utf8"));
+    return Array.isArray(data) ? data : [];
+  } catch {
+    return [];
+  }
+};
+
+const toPersona = (row, index, existente = null) => {
   const legajo = getValue(row, ["numero de legajo", "legajo"]);
 
   return {
-    id: Number(legajo) || Date.now() + index,
+    id: existente?.id ?? (Number(legajo) || Date.now() + index),
     legajo: Number(legajo) || legajo,
     apellido: getValue(row, ["apellido"]),
     nombre: getValue(row, ["nombre"]),
@@ -65,9 +73,8 @@ const toPersona = (row, index, extra = {}) => {
     ]),
     tarea: getValue(row, ["tarea habitual", "tarea"]),
     fecha_ingreso: getValue(row, ["fecha de ingreso", "ingreso"]),
-    cbu: cleanCbu(getValue(row, ["cbu"])) || extra.cbu || null,
-    nombre_operativo:
-      getValue(row, ["nombre operativo"]) || extra.nombre_operativo || null,
+    cbu: existente?.cbu ?? null,
+    nombre_operativo: existente?.nombre_operativo ?? null,
     activo: true,
   };
 };
@@ -76,36 +83,32 @@ const importar = () => {
   console.log("Leyendo archivos...");
 
   const base = leerExcel(archivoBase);
-  const cbuRows = leerExcel(archivoCBU);
-  const cbuMap = new Map();
-
-  cbuRows.forEach((row) => {
-    const legajo = getValue(row, ["numero de legajo", "legajo"]);
-    if (!legajo) return;
-
-    cbuMap.set(String(legajo), {
-      cbu: cleanCbu(getValue(row, ["cbu"])),
-      nombre_operativo: getValue(row, ["nombre operativo"]),
-    });
-  });
+  const existentes = leerPersonasExistentes();
+  const existentePorLegajo = new Map(
+    existentes
+      .filter(
+        (persona) => persona.legajo !== null && persona.legajo !== undefined
+      )
+      .map((persona) => [String(persona.legajo), persona])
+  );
+  const existentePorCuil = new Map(
+    existentes
+      .filter((persona) => persona.cuil)
+      .map((persona) => [String(persona.cuil), persona])
+  );
 
   const personas = base
     .map((row, index) => {
       const legajo = getValue(row, ["numero de legajo", "legajo"]);
-      return toPersona(row, index, cbuMap.get(String(legajo)) || {});
+      const cuil = getValue(row, ["c.u.i.l", "cuil"]);
+      const existente =
+        existentePorLegajo.get(String(legajo)) ||
+        existentePorCuil.get(String(cuil)) ||
+        null;
+
+      return toPersona(row, index, existente);
     })
     .filter((persona) => persona.legajo && persona.apellido && persona.nombre);
-
-  cbuRows.forEach((row, index) => {
-    const legajo = getValue(row, ["numero de legajo", "legajo"]);
-    const yaExiste = personas.some(
-      (persona) => String(persona.legajo) === String(legajo)
-    );
-
-    if (!yaExiste && legajo) {
-      personas.push(toPersona(row, base.length + index));
-    }
-  });
 
   fs.writeFileSync(outputPath, JSON.stringify(personas, null, 2));
 
