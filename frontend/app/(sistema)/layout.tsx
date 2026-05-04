@@ -3,6 +3,12 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
+import {
+  AUTH_TOKEN_KEY,
+  AUTH_USER_KEY,
+  clearAuth,
+  isJwtExpired,
+} from "@/app/utils/auth";
 
 const menuItems = [
   { label: "Inicio", href: "/dashboard", icon: "🏠" },
@@ -20,13 +26,23 @@ interface User {
 
 const subscribeToAuthStorage = (callback: () => void) => {
   window.addEventListener("storage", callback);
-  return () => window.removeEventListener("storage", callback);
+  window.addEventListener("auth-changed", callback);
+
+  return () => {
+    window.removeEventListener("storage", callback);
+    window.removeEventListener("auth-changed", callback);
+  };
 };
 
 const getAuthSnapshot = () => {
-  const token = localStorage.getItem("token");
-  const user = localStorage.getItem("user");
-  return token && user ? user : "";
+  const token = localStorage.getItem(AUTH_TOKEN_KEY);
+  const user = localStorage.getItem(AUTH_USER_KEY);
+
+  if (!token || !user || isJwtExpired(token)) {
+    return "";
+  }
+
+  return JSON.stringify({ token, user });
 };
 
 const getServerAuthSnapshot = () => undefined;
@@ -48,7 +64,8 @@ export default function SistemaLayout({
     if (!authSnapshot) return null;
 
     try {
-      return JSON.parse(authSnapshot) as User;
+      const auth = JSON.parse(authSnapshot) as { user: string };
+      return JSON.parse(auth.user) as User;
     } catch {
       return null;
     }
@@ -58,15 +75,13 @@ export default function SistemaLayout({
     if (authSnapshot === undefined) return;
 
     if (!authSnapshot || !user) {
-      localStorage.removeItem("token");
-      localStorage.removeItem("user");
+      clearAuth();
       router.push("/login");
     }
   }, [authSnapshot, router, user]);
 
   const handleLogout = () => {
-    localStorage.removeItem("token");
-    localStorage.removeItem("user");
+    clearAuth();
     router.push("/login");
   };
 

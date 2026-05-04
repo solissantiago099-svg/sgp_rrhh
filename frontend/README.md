@@ -1,10 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Frontend SGP RRHH
+
+Aplicacion web del sistema de gestion de personal.
+
+## Configuracion
+
+Crear un archivo `.env.local` con la URL del backend:
+
+```env
+NEXT_PUBLIC_API_BASE_URL=http://localhost:3001
+```
 
 ## Levantar servidor local
 
 ```bash
 npm run dev
+```
 
-Abrir [http://localhost:3000] para ver el servidor de pruebas.
-
-
+Abrir http://localhost:3000 para usar el servidor de pruebas.

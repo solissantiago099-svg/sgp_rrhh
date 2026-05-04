@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { API_BASE_URL } from "@/app/utils/api";
+import { persistAuth } from "@/app/utils/auth";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -38,9 +39,7 @@ export default function LoginPage() {
 
       const data = await response.json();
 
-      // Guardar token en localStorage
-      localStorage.setItem("token", data.token);
-      localStorage.setItem("user", JSON.stringify(data.user));
+      persistAuth(data.token, data.user);
 
       router.push("/dashboard");
     } catch (err) {

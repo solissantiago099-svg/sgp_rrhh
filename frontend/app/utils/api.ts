@@ -1,3 +1,5 @@
+import { AUTH_TOKEN_KEY, clearAuth } from "@/app/utils/auth";
+
 export const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_BASE_URL || "https://sgp-rrhh-backend.onrender.com";
 
@@ -5,9 +7,8 @@ export async function fetchJson<T>(
   input: string,
   init?: RequestInit
 ): Promise<T> {
-  // Obtener token del localStorage
   const token =
-    typeof window !== "undefined" ? localStorage.getItem("token") : null;
+    typeof window !== "undefined" ? localStorage.getItem(AUTH_TOKEN_KEY) : null;
 
   const headers = new Headers(init?.headers || {});
 
@@ -33,10 +34,8 @@ export async function fetchJson<T>(
       // Si la API no responde JSON, mantenemos el mensaje genérico.
     }
 
-    // Si es 401, redirigir a login
     if (response.status === 401 && typeof window !== "undefined") {
-      localStorage.removeItem("token");
-      localStorage.removeItem("user");
+      clearAuth();
       window.location.href = "/login";
     }
 
