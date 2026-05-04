@@ -1,6 +1,6 @@
 # SGP RRHH - Backend
 
-API REST para el Sistema de Gestión de Personal para Eventos.
+API REST para el Sistema SGP.
 
 ## Requisitos
 
